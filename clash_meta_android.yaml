@@ -1,8 +1,8 @@
 # ============================================================
 # Clash Meta for Android 手机配置（自动生成，请勿手工编辑）
-# 生成时间: 2026-10-19 08:38:52
+# 生成时间: 2026-10-19 08:50:26
 # 节点来源: 17 个公开订阅源聚合 + 本机实测存活筛选
-# 候选池: 5501 个 -> 实测可用: 22 个 -> 本配置收录: 20 个
+# 候选池: 5501 个 -> 实测可用: 21 个 -> 本配置收录: 19 个
 # 延迟为生成时实测值，仅供参考；Verge 内可重新测速
 # ============================================================
 
@@ -32,7 +32,23 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
 proxies:
-- name: 01|129ms|6.5M|U⚪🏳️ukn_dokng.com_79f3708c
+- name: 01|114ms|9.3M|A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_a3392ac4
+  type: anytls
+  server: er8u54dh.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  udp: true
+- name: 02|141ms|9.8M|trojan-1853493428
+  type: trojan
+  server: 4c2d5151.266nets.com
+  port: 12013
+  password: bad06c3525a6eaee1757b34776b83892
+  skip-cert-verify: true
+  sni: ixigua.com
+  udp: true
+- name: 03|133ms|4.1M|U⚪🏳️ukn_dokng.com_79f3708c
   type: trojan
   server: 185.220.238.77
   port: 11543
@@ -46,23 +62,7 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /api
-- name: 02|129ms|7.5M|A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_0d5d561b
-  type: anytls
-  server: 684616s4.df6h451rh.xin
-  port: 443
-  password: ec74bb6a86c2
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  udp: true
-- name: 03|139ms|10.1M|trojan-1853493428
-  type: trojan
-  server: 4c2d5151.266nets.com
-  port: 12013
-  password: bad06c3525a6eaee1757b34776b83892
-  skip-cert-verify: true
-  sni: ixigua.com
-  udp: true
-- name: 04|161ms|8.9M|trojan-1853493444
+- name: 04|157ms|8.4M|trojan-1853493444
   type: trojan
   server: 4c2d5151.266nets.com
   port: 12001
@@ -70,15 +70,7 @@ proxies:
   skip-cert-verify: true
   sni: ixigua.com
   udp: true
-- name: 05|217ms|1.7M|trojan-1858144933
-  type: trojan
-  server: de4.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  skip-cert-verify: true
-  sni: de4.dedushka.top
-  udp: true
-- name: '06|240ms|5.0M|🇺🇸 美国 | USA #7'
+- name: '05|242ms|5.8M|🇺🇸 美国 | USA #7'
   type: trojan
   server: resources.findlocaljobnetworkandbuildcommunityconnections.com
   port: 443
@@ -86,7 +78,81 @@ proxies:
   skip-cert-verify: true
   sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
   udp: true
-- name: 07|228ms|1.5M|U⚪🏳️ukn[✈️]_dokng.com_9bed8211
+- name: 06|233ms|4.0M|U⚪🏳️ukn[✈️]_dokng.com_f825c293
+  type: vless
+  server: 163.245.42.48
+  port: 443
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  servername: mother-earth.fyi
+  tls: true
+  udp: true
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  xudp: true
+- name: 07|232ms|3.4M|🇩🇪DE_10|4.1MB/s
+  type: trojan
+  server: de7.dedushka.top
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  network: tcp
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  skip-cert-verify: false
+  sni: de7.dedushka.top
+  udp: true
+- name: 08|154ms|0.9M|🇭🇰 香港 | HKG 2
+  type: anytls
+  server: 56481.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  udp: true
+- name: 09|429ms|3.6M|美国 519
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  network: ws
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  skip-cert-verify: true
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: guanwang.awsno.com
+    path: /hls/cctv5phd.m3u8
+- name: 10|226ms|0.3M|trojan-1858144933
+  type: trojan
+  server: de4.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  skip-cert-verify: true
+  sni: de4.dedushka.top
+  udp: true
+- name: 11|331ms|1.2M|A🟢🇭🇰res[🎬🤖📺🎭]_dokng.com_18f91497
+  type: anytls
+  server: 56481.df6h451rh.xin
+  port: 443
+  password: ec74bb6a86c2
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  udp: true
+- name: 12|275ms|0.6M|D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_1fccc9ca
+  type: anytls
+  server: 98416548.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  udp: true
+- name: 13|773ms|3.0M|U⚪🏳️ukn[✈️]_dokng.com_9bed8211
   type: vless
   server: edge.bookmai.com
   port: 443
@@ -102,57 +168,18 @@ proxies:
   udp: true
   uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
   xudp: true
-- name: 08|270ms|4.6M|🇩🇪DE_10|4.1MB/s
-  type: trojan
-  server: de7.dedushka.top
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  network: tcp
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  skip-cert-verify: false
-  sni: de7.dedushka.top
-  udp: true
-- name: 09|133ms|🇯🇵[www.v2nodes.com] ss-JP-1599...
-  type: ss
-  server: 154.36.158.197
-  port: 8388
-  cipher: aes-256-gcm
-  password: BeaUf9c0AEWH40Pu
-- name: 10|225ms|0.2M|A🟢🇭🇰res[🎬🤖📺🎭]_dokng.com_18f91497
+- name: 14|253ms|0.1M|U⚪🏳️ukn[🎬📺🎪🔍]_dokng.com_9f01a8ac
   type: anytls
-  server: 56481.df6h451rh.xin
-  port: 443
-  password: ec74bb6a86c2
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  udp: true
-- name: 11|285ms|0.9M|D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_1fccc9ca
-  type: anytls
-  server: 98416548.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  udp: true
-- name: 12|1009ms|1.8M|比利时 005
-  type: vless
-  server: 57.128.177.198
-  port: 443
-  network: ws
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  servername: vp58.cc.cd
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
+  server: 45.202.240.4
+  port: 33091
   client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: vp58.cc.cd
-    path: /Telegram🇨🇳
-- name: 13|352ms|0.3M|A🟢🇩🇪res[📺🎪]_dokng.com_34178fe5
+  idle-session-check-interval: 30
+  idle-session-timeout: 30
+  password: 776b4834-caaf-4006-ab21-409e958867af
+  skip-cert-verify: true
+  sni: www.bing.com
+  udp: true
+- name: 15|329ms|0.4M|A🟢🇩🇪res[📺🎪]_dokng.com_34178fe5
   type: vless
   server: 185.141.227.223
   port: 443
@@ -169,34 +196,33 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
     path: /useraction/events/b892639b7195/
   xudp: true
-- name: 14|230ms|0.1M|U⚪🏳️ukn[✈️]_dokng.com_f825c293
+- name: 16|1004ms|2.1M|比利时 005
   type: vless
-  server: 163.245.42.48
+  server: 57.128.177.198
   port: 443
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  network: tcp
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  servername: mother-earth.fyi
+  network: ws
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  servername: vp58.cc.cd
+  skip-cert-verify: false
   tls: true
   udp: true
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  xudp: true
-- name: 15|266ms|0.1M|U⚪🏳️ukn[🎬📺🎪🔍]_dokng.com_9f01a8ac
-  type: anytls
-  server: 45.202.240.4
-  port: 33091
+  tfo: false
   client-fingerprint: chrome
-  idle-session-check-interval: 30
-  idle-session-timeout: 30
-  password: 776b4834-caaf-4006-ab21-409e958867af
+  ws-opts:
+    headers:
+      Host: vp58.cc.cd
+    path: /Telegram🇨🇳
+- name: 17|494ms|0.8M|🇦🇺 澳大利亚 | AUS
+  type: hysteria2
+  server: 152.67.115.203
+  port: 443
+  auth: 633bc3be486b646190661ac2387c150a
+  obfs: salamander
+  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
+  password: 633bc3be486b646190661ac2387c150a
   skip-cert-verify: true
   sni: www.bing.com
-  udp: true
-- name: 16|1663ms|1.8M|D🔴🇸🇬hos[🎬📺🎭🎪]_dokng.com_b996207d
+- name: 18|1645ms|1.7M|D🔴🇸🇬hos[🎬📺🎭🎪]_dokng.com_b996207d
   type: vless
   server: 139.162.41.109
   port: 443
@@ -211,53 +237,12 @@ proxies:
     headers:
       Host: fm3.pages.dev
     path: /?ed=2560
-- name: 17|326ms|0.2M|🇭🇰 香港 | HKG 2
-  type: anytls
-  server: 56481.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  udp: true
-- name: 18|387ms|0.3M|俄罗斯 005
-  type: vless
-  server: 185.141.227.223
-  port: 443
-  network: ws
-  uuid: a443d7bf-f506-46ce-b64d-cf8891c0a9f7
-  servername: z1q3pv4g78.rucdncomp.pro
-  tls: true
-  udp: true
-  client-fingerprint: firefox
-  ws-opts:
-    headers:
-      Host: z1q3pv4g78.rucdncomp.pro
-    path: /useraction/events/b892639b7195/
-- name: 19|446ms|0.3M|🇦🇺 澳大利亚 | AUS
-  type: hysteria2
-  server: 152.67.115.203
-  port: 443
-  auth: 633bc3be486b646190661ac2387c150a
-  obfs: salamander
-  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-  password: 633bc3be486b646190661ac2387c150a
-  skip-cert-verify: true
-  sni: www.bing.com
-- name: 20|381ms|0.1M|🇷🇺_RU_俄罗斯->🇩🇪_DE_德国
-  type: vless
-  server: z1q3pv4g78.rucdncomp.pro
-  port: 443
-  uuid: c720cb74-4c84-4fce-b8ae-637dbaa16199
-  network: ws
-  servername: z1q3pv4g78.rucdncomp.pro
-  tls: true
-  client-fingerprint: firefox
-  ws-opts:
-    path: /useraction/events/b892639b7195/
-    headers:
-      Host: z1q3pv4g78.rucdncomp.pro
-  skip-cert-verify: true
-  udp: true
+- name: 19|375ms|🇯🇵[www.v2nodes.com] ss-JP-1599...
+  type: ss
+  server: 154.36.158.197
+  port: 8388
+  cipher: aes-256-gcm
+  password: BeaUf9c0AEWH40Pu
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -265,26 +250,25 @@ proxy-groups:
   - ♻️ 自动选择
   - 🔯 故障转移
   - DIRECT
-  - 01|129ms|6.5M|U⚪🏳️ukn_dokng.com_79f3708c
-  - 02|129ms|7.5M|A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_0d5d561b
-  - 03|139ms|10.1M|trojan-1853493428
-  - 04|161ms|8.9M|trojan-1853493444
-  - 05|217ms|1.7M|trojan-1858144933
-  - '06|240ms|5.0M|🇺🇸 美国 | USA #7'
-  - 07|228ms|1.5M|U⚪🏳️ukn[✈️]_dokng.com_9bed8211
-  - 08|270ms|4.6M|🇩🇪DE_10|4.1MB/s
-  - 09|133ms|🇯🇵[www.v2nodes.com] ss-JP-1599...
-  - 10|225ms|0.2M|A🟢🇭🇰res[🎬🤖📺🎭]_dokng.com_18f91497
-  - 11|285ms|0.9M|D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_1fccc9ca
-  - 12|1009ms|1.8M|比利时 005
-  - 13|352ms|0.3M|A🟢🇩🇪res[📺🎪]_dokng.com_34178fe5
-  - 14|230ms|0.1M|U⚪🏳️ukn[✈️]_dokng.com_f825c293
-  - 15|266ms|0.1M|U⚪🏳️ukn[🎬📺🎪🔍]_dokng.com_9f01a8ac
-  - 16|1663ms|1.8M|D🔴🇸🇬hos[🎬📺🎭🎪]_dokng.com_b996207d
-  - 17|326ms|0.2M|🇭🇰 香港 | HKG 2
-  - 18|387ms|0.3M|俄罗斯 005
-  - 19|446ms|0.3M|🇦🇺 澳大利亚 | AUS
-  - 20|381ms|0.1M|🇷🇺_RU_俄罗斯->🇩🇪_DE_德国
+  - 01|114ms|9.3M|A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_a3392ac4
+  - 02|141ms|9.8M|trojan-1853493428
+  - 03|133ms|4.1M|U⚪🏳️ukn_dokng.com_79f3708c
+  - 04|157ms|8.4M|trojan-1853493444
+  - '05|242ms|5.8M|🇺🇸 美国 | USA #7'
+  - 06|233ms|4.0M|U⚪🏳️ukn[✈️]_dokng.com_f825c293
+  - 07|232ms|3.4M|🇩🇪DE_10|4.1MB/s
+  - 08|154ms|0.9M|🇭🇰 香港 | HKG 2
+  - 09|429ms|3.6M|美国 519
+  - 10|226ms|0.3M|trojan-1858144933
+  - 11|331ms|1.2M|A🟢🇭🇰res[🎬🤖📺🎭]_dokng.com_18f91497
+  - 12|275ms|0.6M|D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_1fccc9ca
+  - 13|773ms|3.0M|U⚪🏳️ukn[✈️]_dokng.com_9bed8211
+  - 14|253ms|0.1M|U⚪🏳️ukn[🎬📺🎪🔍]_dokng.com_9f01a8ac
+  - 15|329ms|0.4M|A🟢🇩🇪res[📺🎪]_dokng.com_34178fe5
+  - 16|1004ms|2.1M|比利时 005
+  - 17|494ms|0.8M|🇦🇺 澳大利亚 | AUS
+  - 18|1645ms|1.7M|D🔴🇸🇬hos[🎬📺🎭🎪]_dokng.com_b996207d
+  - 19|375ms|🇯🇵[www.v2nodes.com] ss-JP-1599...
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
@@ -292,26 +276,25 @@ proxy-groups:
   tolerance: 50
   lazy: true
   proxies: &id001
-  - 01|129ms|6.5M|U⚪🏳️ukn_dokng.com_79f3708c
-  - 02|129ms|7.5M|A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_0d5d561b
-  - 03|139ms|10.1M|trojan-1853493428
-  - 04|161ms|8.9M|trojan-1853493444
-  - 05|217ms|1.7M|trojan-1858144933
-  - '06|240ms|5.0M|🇺🇸 美国 | USA #7'
-  - 07|228ms|1.5M|U⚪🏳️ukn[✈️]_dokng.com_9bed8211
-  - 08|270ms|4.6M|🇩🇪DE_10|4.1MB/s
-  - 09|133ms|🇯🇵[www.v2nodes.com] ss-JP-1599...
-  - 10|225ms|0.2M|A🟢🇭🇰res[🎬🤖📺🎭]_dokng.com_18f91497
-  - 11|285ms|0.9M|D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_1fccc9ca
-  - 12|1009ms|1.8M|比利时 005
-  - 13|352ms|0.3M|A🟢🇩🇪res[📺🎪]_dokng.com_34178fe5
-  - 14|230ms|0.1M|U⚪🏳️ukn[✈️]_dokng.com_f825c293
-  - 15|266ms|0.1M|U⚪🏳️ukn[🎬📺🎪🔍]_dokng.com_9f01a8ac
-  - 16|1663ms|1.8M|D🔴🇸🇬hos[🎬📺🎭🎪]_dokng.com_b996207d
-  - 17|326ms|0.2M|🇭🇰 香港 | HKG 2
-  - 18|387ms|0.3M|俄罗斯 005
-  - 19|446ms|0.3M|🇦🇺 澳大利亚 | AUS
-  - 20|381ms|0.1M|🇷🇺_RU_俄罗斯->🇩🇪_DE_德国
+  - 01|114ms|9.3M|A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_a3392ac4
+  - 02|141ms|9.8M|trojan-1853493428
+  - 03|133ms|4.1M|U⚪🏳️ukn_dokng.com_79f3708c
+  - 04|157ms|8.4M|trojan-1853493444
+  - '05|242ms|5.8M|🇺🇸 美国 | USA #7'
+  - 06|233ms|4.0M|U⚪🏳️ukn[✈️]_dokng.com_f825c293
+  - 07|232ms|3.4M|🇩🇪DE_10|4.1MB/s
+  - 08|154ms|0.9M|🇭🇰 香港 | HKG 2
+  - 09|429ms|3.6M|美国 519
+  - 10|226ms|0.3M|trojan-1858144933
+  - 11|331ms|1.2M|A🟢🇭🇰res[🎬🤖📺🎭]_dokng.com_18f91497
+  - 12|275ms|0.6M|D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_1fccc9ca
+  - 13|773ms|3.0M|U⚪🏳️ukn[✈️]_dokng.com_9bed8211
+  - 14|253ms|0.1M|U⚪🏳️ukn[🎬📺🎪🔍]_dokng.com_9f01a8ac
+  - 15|329ms|0.4M|A🟢🇩🇪res[📺🎪]_dokng.com_34178fe5
+  - 16|1004ms|2.1M|比利时 005
+  - 17|494ms|0.8M|🇦🇺 澳大利亚 | AUS
+  - 18|1645ms|1.7M|D🔴🇸🇬hos[🎬📺🎭🎪]_dokng.com_b996207d
+  - 19|375ms|🇯🇵[www.v2nodes.com] ss-JP-1599...
 - name: 🔯 故障转移
   type: fallback
   url: http://cp.cloudflare.com/generate_204
