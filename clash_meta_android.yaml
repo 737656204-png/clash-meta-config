@@ -1,8 +1,8 @@
 # ============================================================
 # Clash Meta for Android 手机配置（自动生成，请勿手工编辑）
-# 生成时间: 2026-10-19 08:57:24
+# 生成时间: 2026-10-22 21:01:41
 # 节点来源: 17 个公开订阅源聚合 + 本机实测存活筛选
-# 候选池: 5501 个 -> 实测可用: 21 个 -> 本配置收录: 13 个
+# 候选池: 5479 个 -> 实测可用: 38 个 -> 本配置收录: 21 个
 # 延迟为生成时实测值，仅供参考；Verge 内可重新测速
 # ============================================================
 
@@ -32,139 +32,264 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
 proxies:
-- name: 01|g0.6s|9.8M|trojan-1853493428
-  type: trojan
-  server: 4c2d5151.266nets.com
-  port: 12013
-  password: bad06c3525a6eaee1757b34776b83892
-  skip-cert-verify: true
-  sni: ixigua.com
-  udp: true
-- name: 02|g0.7s|8.4M|trojan-1853493444
-  type: trojan
-  server: 4c2d5151.266nets.com
-  port: 12001
-  password: bad06c3525a6eaee1757b34776b83892
-  skip-cert-verify: true
-  sni: ixigua.com
-  udp: true
-- name: 03|g0.9s|9.3M|A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_a3392ac4
-  type: anytls
-  server: er8u54dh.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  udp: true
-- name: 04|g0.9s|0.3M|trojan-1858144933
-  type: trojan
-  server: de4.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  skip-cert-verify: true
-  sni: de4.dedushka.top
-  udp: true
-- name: '05|g1.0s|5.8M|🇺🇸 美国 | USA #7'
-  type: trojan
-  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  port: 443
-  password: f0eb8c92ce8946aaba856569cff1a16b
-  skip-cert-verify: true
-  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  udp: true
-- name: 06|g1.2s|3.4M|🇩🇪DE_10|4.1MB/s
-  type: trojan
-  server: de7.dedushka.top
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  network: tcp
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  skip-cert-verify: false
-  sni: de7.dedushka.top
-  udp: true
-- name: 07|g1.2s|2.1M|比利时 005
+- name: 01|g0.7s|0.1M|美国 046
   type: vless
-  server: 57.128.177.198
+  server: 13.60.198.133
   port: 443
-  network: ws
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  servername: vp58.cc.cd
-  skip-cert-verify: false
-  tls: true
+  network: http
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+  tls: false
   udp: true
-  tfo: false
+  http-opts:
+    headers:
+      Host:
+      - play.googleapis.com
+    method: GET
+    path:
+    - /
+- name: 02|g0.9s|2.9M|C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_b01d10a9
+  type: vless
+  server: funagfrdfs.alixxplay.com
+  port: 30892
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
+    short-id: 3d31326f95
+  servername: us1p1.xn--ghq880n3na965a.com
+  tls: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: '03|g0.9s|0.3M|🇮🇹 意大利 | ITA #2'
+  type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '04|g1.0s|0.1M|🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 05|g1.1s|1.6M|vless-1880579270
+  type: vless
+  server: funagfrdfs.alixxplay.com
+  port: 56415
   client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: vp58.cc.cd
-    path: /Telegram🇨🇳
-- name: 08|g1.3s|1.2M|A🟢🇭🇰res[🎬🤖📺🎭]_dokng.com_18f91497
-  type: anytls
-  server: 56481.df6h451rh.xin
-  port: 443
-  password: ec74bb6a86c2
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  udp: true
-- name: 09|g1.6s|1.7M|D🔴🇸🇬hos[🎬📺🎭🎪]_dokng.com_b996207d
-  type: vless
-  server: 139.162.41.109
-  port: 443
-  client-fingerprint: random
-  network: ws
-  servername: fm3.pages.dev
-  skip-cert-verify: true
-  tfo: false
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
+    short-id: cbd39bea0805e2
+  servername: www.kaidee.com
   tls: true
-  uuid: e5833a75-2095-48bb-8bb5-ce17291efd13
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 06|g1.4s|C🟠🇸🇬hos[🎬🤖📺🎭]_dokng.com_2d587ee4
+  type: vless
+  server: funagfrdfs.alixxplay.com
+  port: 46105
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
+    short-id: 28f5c1f8f98a
+  servername: www.lamer.com.sg
+  tls: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 07|g1.5s|0.6M|🇯🇵 日本 | JPN 2
+  type: vless
+  server: funagfrdfs.alixxplay.com
+  port: 34379
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: e51285e3
+  servername: us1p1.xn--ghq880n3na965a.com
+  client-fingerprint: random
+  network: tcp
+  udp: true
+- name: 08|g1.6s|0.4M|日本 东京Amazon数据中心
+  type: vless
+  server: funagfrdfs.alixxplay.com
+  port: 54528
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
+    short-id: 54cca3c1c1c7
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  flow: xtls-rprx-vision
+- name: 09|g1.8s|0.1M|D🔴🇸🇪hos[🎬🤖📺🎭]_dokng.com_8a271c7d
+  type: vless
+  server: 103.71.22.158
+  port: 443
+  client-fingerprint: chrome
+  network: ws
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: fm3.pages.dev
-    path: /?ed=2560
-- name: 10|g2.3s|0.9M|🇭🇰 香港 | HKG 2
-  type: anytls
-  server: 56481.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  udp: true
-- name: 11|g3.2s|0.6M|D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_1fccc9ca
-  type: anytls
-  server: 98416548.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  udp: true
-- name: 12|g3.9s|0.8M|🇦🇺 澳大利亚 | AUS
-  type: hysteria2
-  server: 152.67.115.203
-  port: 443
-  auth: 633bc3be486b646190661ac2387c150a
-  obfs: salamander
-  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-  password: 633bc3be486b646190661ac2387c150a
-  skip-cert-verify: true
-  sni: www.bing.com
-- name: 13|g5.5s|0.4M|A🟢🇩🇪res[📺🎪]_dokng.com_34178fe5
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /
+  xudp: true
+- name: 10|g1.9s|0.1M|D🔴🇧🇬hos[🎬🤖📺🎭]_dokng.com_35d81f34
   type: vless
-  server: 185.141.227.223
+  server: 13.140.29.45
   port: 443
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   encryption: none
   network: ws
-  servername: z1q3pv4g78.rucdncomp.pro
+  servername: snip.edgeoneai.cc.cd
   tls: true
   udp: true
-  uuid: c720cb74-4c84-4fce-b8ae-637dbaa16199
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: z1q3pv4g78.rucdncomp.pro
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
-    path: /useraction/events/b892639b7195/
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /
+  xudp: true
+- name: 11|g2.1s|0.1M|D🔴🇸🇪hos[🎬🤖📺🎭]_dokng.com_7c7d966e
+  type: vless
+  server: 13.143.182.82
+  port: 443
+  client-fingerprint: chrome
+  network: ws
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /
+  xudp: true
+- name: '12|g2.2s|1.1M|🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
+  type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 13|g3.4s|0.4M|C🟠🇭🇰hos[🎬📺🎭🎪]_dokng.com_943554ea
+  type: vless
+  server: 141.11.149.174
+  port: 9443
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  network: tcp
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  servername: www.amazon.com
+  tls: true
+  udp: true
+  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
+  xudp: true
+- name: 14|g3.5s|0.4M|vless-1879607320
+  type: vless
+  server: 45.202.254.20
+  port: 9443
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  servername: www.amazon.com
+  tls: true
+  udp: true
+  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
+- name: 15|g3.6s|0.5M|美国 035
+  type: vless
+  server: 172.64.150.43
+  port: 443
+  network: ws
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  udp: true
+  client-fingerprint: unsafe
+  xudp: true
+  encryption: none
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /
+- name: 16|g4.0s|0.2M|🏳[www.v2nodes.com] ss-
+  type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '17|g5.1s|0.5M|🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 18|g5.2s|0.5M|GB_speednode_0013
+  type: vless
+  server: netherlands02.azotvpn.xyz
+  port: 443
+  uuid: a500be68-4ff6-433b-9968-472be69fab14
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  servername: netherlands02.azotvpn.xyz
+  reality-opts:
+    public-key: ui9MLRYZIz7S6_1E4fZgoamwTypfQAMwJ1olxGcWomE
+    short-id: fc70174007a393b4
+  network: tcp
+  udp: true
+- name: '19|g5.5s|0.2M|🇮🇹 意大利 | ITA #1'
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '20|g5.5s|0.6M|🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
+  type: ss
+  server: 202.50.253.90
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 21|g8.0s|0.0M|🇭🇰HK_1|1.0MB/s
+  type: vless
+  server: 5.188.33.40
+  port: 443
+  alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  network: ws
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+    path: /
   xudp: true
 proxy-groups:
 - name: 🚀 节点选择
@@ -173,19 +298,27 @@ proxy-groups:
   - ♻️ 自动选择
   - 🔯 故障转移
   - DIRECT
-  - 01|g0.6s|9.8M|trojan-1853493428
-  - 02|g0.7s|8.4M|trojan-1853493444
-  - 03|g0.9s|9.3M|A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_a3392ac4
-  - 04|g0.9s|0.3M|trojan-1858144933
-  - '05|g1.0s|5.8M|🇺🇸 美国 | USA #7'
-  - 06|g1.2s|3.4M|🇩🇪DE_10|4.1MB/s
-  - 07|g1.2s|2.1M|比利时 005
-  - 08|g1.3s|1.2M|A🟢🇭🇰res[🎬🤖📺🎭]_dokng.com_18f91497
-  - 09|g1.6s|1.7M|D🔴🇸🇬hos[🎬📺🎭🎪]_dokng.com_b996207d
-  - 10|g2.3s|0.9M|🇭🇰 香港 | HKG 2
-  - 11|g3.2s|0.6M|D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_1fccc9ca
-  - 12|g3.9s|0.8M|🇦🇺 澳大利亚 | AUS
-  - 13|g5.5s|0.4M|A🟢🇩🇪res[📺🎪]_dokng.com_34178fe5
+  - 01|g0.7s|0.1M|美国 046
+  - 02|g0.9s|2.9M|C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_b01d10a9
+  - '03|g0.9s|0.3M|🇮🇹 意大利 | ITA #2'
+  - '04|g1.0s|0.1M|🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
+  - 05|g1.1s|1.6M|vless-1880579270
+  - 06|g1.4s|C🟠🇸🇬hos[🎬🤖📺🎭]_dokng.com_2d587ee4
+  - 07|g1.5s|0.6M|🇯🇵 日本 | JPN 2
+  - 08|g1.6s|0.4M|日本 东京Amazon数据中心
+  - 09|g1.8s|0.1M|D🔴🇸🇪hos[🎬🤖📺🎭]_dokng.com_8a271c7d
+  - 10|g1.9s|0.1M|D🔴🇧🇬hos[🎬🤖📺🎭]_dokng.com_35d81f34
+  - 11|g2.1s|0.1M|D🔴🇸🇪hos[🎬🤖📺🎭]_dokng.com_7c7d966e
+  - '12|g2.2s|1.1M|🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
+  - 13|g3.4s|0.4M|C🟠🇭🇰hos[🎬📺🎭🎪]_dokng.com_943554ea
+  - 14|g3.5s|0.4M|vless-1879607320
+  - 15|g3.6s|0.5M|美国 035
+  - 16|g4.0s|0.2M|🏳[www.v2nodes.com] ss-
+  - '17|g5.1s|0.5M|🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
+  - 18|g5.2s|0.5M|GB_speednode_0013
+  - '19|g5.5s|0.2M|🇮🇹 意大利 | ITA #1'
+  - '20|g5.5s|0.6M|🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
+  - 21|g8.0s|0.0M|🇭🇰HK_1|1.0MB/s
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
@@ -193,19 +326,27 @@ proxy-groups:
   tolerance: 50
   lazy: true
   proxies: &id001
-  - 01|g0.6s|9.8M|trojan-1853493428
-  - 02|g0.7s|8.4M|trojan-1853493444
-  - 03|g0.9s|9.3M|A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_a3392ac4
-  - 04|g0.9s|0.3M|trojan-1858144933
-  - '05|g1.0s|5.8M|🇺🇸 美国 | USA #7'
-  - 06|g1.2s|3.4M|🇩🇪DE_10|4.1MB/s
-  - 07|g1.2s|2.1M|比利时 005
-  - 08|g1.3s|1.2M|A🟢🇭🇰res[🎬🤖📺🎭]_dokng.com_18f91497
-  - 09|g1.6s|1.7M|D🔴🇸🇬hos[🎬📺🎭🎪]_dokng.com_b996207d
-  - 10|g2.3s|0.9M|🇭🇰 香港 | HKG 2
-  - 11|g3.2s|0.6M|D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_1fccc9ca
-  - 12|g3.9s|0.8M|🇦🇺 澳大利亚 | AUS
-  - 13|g5.5s|0.4M|A🟢🇩🇪res[📺🎪]_dokng.com_34178fe5
+  - 01|g0.7s|0.1M|美国 046
+  - 02|g0.9s|2.9M|C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_b01d10a9
+  - '03|g0.9s|0.3M|🇮🇹 意大利 | ITA #2'
+  - '04|g1.0s|0.1M|🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
+  - 05|g1.1s|1.6M|vless-1880579270
+  - 06|g1.4s|C🟠🇸🇬hos[🎬🤖📺🎭]_dokng.com_2d587ee4
+  - 07|g1.5s|0.6M|🇯🇵 日本 | JPN 2
+  - 08|g1.6s|0.4M|日本 东京Amazon数据中心
+  - 09|g1.8s|0.1M|D🔴🇸🇪hos[🎬🤖📺🎭]_dokng.com_8a271c7d
+  - 10|g1.9s|0.1M|D🔴🇧🇬hos[🎬🤖📺🎭]_dokng.com_35d81f34
+  - 11|g2.1s|0.1M|D🔴🇸🇪hos[🎬🤖📺🎭]_dokng.com_7c7d966e
+  - '12|g2.2s|1.1M|🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
+  - 13|g3.4s|0.4M|C🟠🇭🇰hos[🎬📺🎭🎪]_dokng.com_943554ea
+  - 14|g3.5s|0.4M|vless-1879607320
+  - 15|g3.6s|0.5M|美国 035
+  - 16|g4.0s|0.2M|🏳[www.v2nodes.com] ss-
+  - '17|g5.1s|0.5M|🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
+  - 18|g5.2s|0.5M|GB_speednode_0013
+  - '19|g5.5s|0.2M|🇮🇹 意大利 | ITA #1'
+  - '20|g5.5s|0.6M|🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
+  - 21|g8.0s|0.0M|🇭🇰HK_1|1.0MB/s
 - name: 🔯 故障转移
   type: fallback
   url: http://cp.cloudflare.com/generate_204
