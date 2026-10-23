@@ -1,6 +1,6 @@
 # ============================================================
 # Clash Meta for Android 手机配置（自动生成，请勿手工编辑）
-# 生成时间: 2026-10-23 08:24:22
+# 生成时间: 2026-10-23 08:34:27
 # 节点来源: 17 个公开订阅源聚合 + 本机实测存活筛选
 # 候选池: 5479 个 -> 实测可用: 38 个 -> 本配置收录: 37 个
 # 延迟为生成时实测值，仅供参考；Verge 内可重新测速
@@ -32,104 +32,34 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
 proxies:
-- name: 01|g0.8s|0.5M|美国 035
-  type: vless
-  server: 172.64.150.43
-  port: 443
-  network: ws
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  udp: true
-  client-fingerprint: unsafe
-  xudp: true
-  encryption: none
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /
-- name: '02|g0.9s|0.2M|🇮🇹 意大利 | ITA #1'
+- name: '01|g0.9s|0.2M|★🇮🇹 意大利 | ITA #1'
   type: ss
   server: 202.50.253.99
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 03|g0.9s|0.2M|🏳[www.v2nodes.com] ss-
-  type: ss
-  server: 202.50.253.54
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: '04|g0.9s|1.1M|🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
-  type: ss
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: '05|g0.9s|0.3M|🇮🇹 意大利 | ITA #2'
+- name: '02|g0.9s|0.3M|★🇮🇹 意大利 | ITA #2'
   type: ss
   server: 202.50.253.81
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '06|g0.9s|0.6M|🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
-  type: ss
-  server: 202.50.253.90
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: '07|g0.9s|0.1M|🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
+- name: '03|g0.9s|0.1M|★🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
   type: ss
   server: 202.50.253.36
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: '08|g1.0s|0.5M|🇮🇹 意大利 | ITA #3'
+- name: '04|g1.0s|0.5M|★🇮🇹 意大利 | ITA #3'
   type: ss
   server: 202.50.253.27
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '09|g1.0s|0.5M|🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
-  type: ss
-  server: 202.50.253.45
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 10|g1.3s|0.5M|GB_speednode_0013
-  type: vless
-  server: netherlands02.azotvpn.xyz
-  port: 443
-  uuid: a500be68-4ff6-433b-9968-472be69fab14
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: netherlands02.azotvpn.xyz
-  reality-opts:
-    public-key: ui9MLRYZIz7S6_1E4fZgoamwTypfQAMwJ1olxGcWomE
-    short-id: fc70174007a393b4
-  network: tcp
-  udp: true
-- name: 11|g1.3s|0.4M|vless-1879607320
-  type: vless
-  server: 45.202.254.20
-  port: 9443
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  network: tcp
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  servername: www.amazon.com
-  tls: true
-  udp: true
-  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
-- name: 12|g1.4s|0.6M|D🔴🇩🇪hos[🤖📺🎭🎪]_dokng.com_c205c2d5
+- name: 05|g1.4s|0.6M|★D🔴🇩🇪hos[🤖📺🎭🎪]_dokng.com_c205c2d5
   type: vless
   server: 177.1.187.183
   port: 443
@@ -145,7 +75,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /
   xudp: true
-- name: 13|g1.6s|0.1M|D🔴🇧🇬hos[🎬🤖📺🎭]_dokng.com_35d81f34
+- name: 06|g1.6s|0.1M|★D🔴🇧🇬hos[🎬🤖📺🎭]_dokng.com_35d81f34
   type: vless
   server: 13.140.29.45
   port: 443
@@ -162,7 +92,93 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /
   xudp: true
-- name: 14|g1.6s|0.4M|C🟠🇭🇰hos[🎬📺🎭🎪]_dokng.com_943554ea
+- name: 07|g1.8s|0.1M|★D🔴🇸🇪hos[🎬🤖📺🎭]_dokng.com_7c7d966e
+  type: vless
+  server: 13.143.182.82
+  port: 443
+  client-fingerprint: chrome
+  network: ws
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /
+  xudp: true
+- name: 08|g0.8s|0.5M|美国 035
+  type: vless
+  server: 172.64.150.43
+  port: 443
+  network: ws
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  udp: true
+  client-fingerprint: unsafe
+  xudp: true
+  encryption: none
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /
+- name: 09|g0.9s|0.2M|🏳[www.v2nodes.com] ss-
+  type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '10|g0.9s|1.1M|🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
+  type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '11|g0.9s|0.6M|🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
+  type: ss
+  server: 202.50.253.90
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '12|g1.0s|0.5M|🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 13|g1.3s|0.5M|GB_speednode_0013
+  type: vless
+  server: netherlands02.azotvpn.xyz
+  port: 443
+  uuid: a500be68-4ff6-433b-9968-472be69fab14
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  servername: netherlands02.azotvpn.xyz
+  reality-opts:
+    public-key: ui9MLRYZIz7S6_1E4fZgoamwTypfQAMwJ1olxGcWomE
+    short-id: fc70174007a393b4
+  network: tcp
+  udp: true
+- name: 14|g1.3s|0.4M|vless-1879607320
+  type: vless
+  server: 45.202.254.20
+  port: 9443
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  servername: www.amazon.com
+  tls: true
+  udp: true
+  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
+- name: 15|g1.6s|0.4M|C🟠🇭🇰hos[🎬📺🎭🎪]_dokng.com_943554ea
   type: vless
   server: 141.11.149.174
   port: 9443
@@ -180,22 +196,6 @@ proxies:
   tls: true
   udp: true
   uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
-  xudp: true
-- name: 15|g1.8s|0.1M|D🔴🇸🇪hos[🎬🤖📺🎭]_dokng.com_7c7d966e
-  type: vless
-  server: 13.143.182.82
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /
   xudp: true
 - name: 16|g1.9s|0.1M|D🔴🇸🇪hos[🎬🤖📺🎭]_dokng.com_8a271c7d
   type: vless
@@ -445,21 +445,21 @@ proxy-groups:
   - ♻️ 自动选择
   - 🔯 故障转移
   - DIRECT
-  - 01|g0.8s|0.5M|美国 035
-  - '02|g0.9s|0.2M|🇮🇹 意大利 | ITA #1'
-  - 03|g0.9s|0.2M|🏳[www.v2nodes.com] ss-
-  - '04|g0.9s|1.1M|🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
-  - '05|g0.9s|0.3M|🇮🇹 意大利 | ITA #2'
-  - '06|g0.9s|0.6M|🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
-  - '07|g0.9s|0.1M|🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
-  - '08|g1.0s|0.5M|🇮🇹 意大利 | ITA #3'
-  - '09|g1.0s|0.5M|🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
-  - 10|g1.3s|0.5M|GB_speednode_0013
-  - 11|g1.3s|0.4M|vless-1879607320
-  - 12|g1.4s|0.6M|D🔴🇩🇪hos[🤖📺🎭🎪]_dokng.com_c205c2d5
-  - 13|g1.6s|0.1M|D🔴🇧🇬hos[🎬🤖📺🎭]_dokng.com_35d81f34
-  - 14|g1.6s|0.4M|C🟠🇭🇰hos[🎬📺🎭🎪]_dokng.com_943554ea
-  - 15|g1.8s|0.1M|D🔴🇸🇪hos[🎬🤖📺🎭]_dokng.com_7c7d966e
+  - '01|g0.9s|0.2M|★🇮🇹 意大利 | ITA #1'
+  - '02|g0.9s|0.3M|★🇮🇹 意大利 | ITA #2'
+  - '03|g0.9s|0.1M|★🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
+  - '04|g1.0s|0.5M|★🇮🇹 意大利 | ITA #3'
+  - 05|g1.4s|0.6M|★D🔴🇩🇪hos[🤖📺🎭🎪]_dokng.com_c205c2d5
+  - 06|g1.6s|0.1M|★D🔴🇧🇬hos[🎬🤖📺🎭]_dokng.com_35d81f34
+  - 07|g1.8s|0.1M|★D🔴🇸🇪hos[🎬🤖📺🎭]_dokng.com_7c7d966e
+  - 08|g0.8s|0.5M|美国 035
+  - 09|g0.9s|0.2M|🏳[www.v2nodes.com] ss-
+  - '10|g0.9s|1.1M|🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
+  - '11|g0.9s|0.6M|🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
+  - '12|g1.0s|0.5M|🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
+  - 13|g1.3s|0.5M|GB_speednode_0013
+  - 14|g1.3s|0.4M|vless-1879607320
+  - 15|g1.6s|0.4M|C🟠🇭🇰hos[🎬📺🎭🎪]_dokng.com_943554ea
   - 16|g1.9s|0.1M|D🔴🇸🇪hos[🎬🤖📺🎭]_dokng.com_8a271c7d
   - 17|226ms|1.6M|vless-1880579270
   - 18|157ms|0.6M|U⚪🏳️ukn_dokng.com_79f3708c
@@ -489,21 +489,21 @@ proxy-groups:
   tolerance: 50
   lazy: true
   proxies: &id001
-  - 01|g0.8s|0.5M|美国 035
-  - '02|g0.9s|0.2M|🇮🇹 意大利 | ITA #1'
-  - 03|g0.9s|0.2M|🏳[www.v2nodes.com] ss-
-  - '04|g0.9s|1.1M|🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
-  - '05|g0.9s|0.3M|🇮🇹 意大利 | ITA #2'
-  - '06|g0.9s|0.6M|🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
-  - '07|g0.9s|0.1M|🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
-  - '08|g1.0s|0.5M|🇮🇹 意大利 | ITA #3'
-  - '09|g1.0s|0.5M|🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
-  - 10|g1.3s|0.5M|GB_speednode_0013
-  - 11|g1.3s|0.4M|vless-1879607320
-  - 12|g1.4s|0.6M|D🔴🇩🇪hos[🤖📺🎭🎪]_dokng.com_c205c2d5
-  - 13|g1.6s|0.1M|D🔴🇧🇬hos[🎬🤖📺🎭]_dokng.com_35d81f34
-  - 14|g1.6s|0.4M|C🟠🇭🇰hos[🎬📺🎭🎪]_dokng.com_943554ea
-  - 15|g1.8s|0.1M|D🔴🇸🇪hos[🎬🤖📺🎭]_dokng.com_7c7d966e
+  - '01|g0.9s|0.2M|★🇮🇹 意大利 | ITA #1'
+  - '02|g0.9s|0.3M|★🇮🇹 意大利 | ITA #2'
+  - '03|g0.9s|0.1M|★🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
+  - '04|g1.0s|0.5M|★🇮🇹 意大利 | ITA #3'
+  - 05|g1.4s|0.6M|★D🔴🇩🇪hos[🤖📺🎭🎪]_dokng.com_c205c2d5
+  - 06|g1.6s|0.1M|★D🔴🇧🇬hos[🎬🤖📺🎭]_dokng.com_35d81f34
+  - 07|g1.8s|0.1M|★D🔴🇸🇪hos[🎬🤖📺🎭]_dokng.com_7c7d966e
+  - 08|g0.8s|0.5M|美国 035
+  - 09|g0.9s|0.2M|🏳[www.v2nodes.com] ss-
+  - '10|g0.9s|1.1M|🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
+  - '11|g0.9s|0.6M|🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
+  - '12|g1.0s|0.5M|🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
+  - 13|g1.3s|0.5M|GB_speednode_0013
+  - 14|g1.3s|0.4M|vless-1879607320
+  - 15|g1.6s|0.4M|C🟠🇭🇰hos[🎬📺🎭🎪]_dokng.com_943554ea
   - 16|g1.9s|0.1M|D🔴🇸🇪hos[🎬🤖📺🎭]_dokng.com_8a271c7d
   - 17|226ms|1.6M|vless-1880579270
   - 18|157ms|0.6M|U⚪🏳️ukn_dokng.com_79f3708c
