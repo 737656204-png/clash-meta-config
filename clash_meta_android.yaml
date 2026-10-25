@@ -1,6 +1,6 @@
 # ============================================================
 # Clash Meta for Android 手机配置（自动生成，请勿手工编辑）
-# 生成时间: 2026-10-25 09:34:26
+# 生成时间: 2026-10-25 09:35:43
 # 节点来源: 17 个公开订阅源聚合 + 本机实测存活筛选
 # 候选池: 5439 个 -> 实测可用: 59 个 -> 本配置收录: 58 个
 # 延迟为生成时实测值，仅供参考；Verge 内可重新测速
@@ -615,7 +615,22 @@ proxy-groups:
   interval: 300
   tolerance: 50
   lazy: true
-  proxies: &id001
+  proxies:
+  - 01|g0.9s|3.8M|★🇮🇹_IT_意大利_6
+  - 02|g0.9s|5.0M|★🇮🇹_IT_意大利
+  - 03|g0.9s|3.0M|★🇮🇹_IT_意大利_3
+  - 04|g0.9s|3.5M|★🇮🇹_IT_意大利_4
+  - 05|g1.1s|5.3M|★D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_73294fbd
+  - 06|g1.4s|3.9M|★🇹🇷 土耳其 | TUR
+  - 07|g1.4s|3.8M|★D🔴🇹🇼hos[🎬📺🎭🎪]_dokng.com_69bf9397
+  - 08|g1.5s|2.1M|★vless-1886174159
+  - 09|g1.6s|4.5M|★A🟢🇰🇷res[🎬🤖📺🎭]_dokng.com_8c4c28a6
+  - 10|g3.4s|4.2M|★🇮🇹_IT_意大利_5
+- name: 🔯 故障转移
+  type: fallback
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  proxies:
   - 01|g0.9s|3.8M|★🇮🇹_IT_意大利_6
   - 02|g0.9s|5.0M|★🇮🇹_IT_意大利
   - 03|g0.9s|3.0M|★🇮🇹_IT_意大利_3
@@ -674,11 +689,6 @@ proxy-groups:
   - 56|1437ms|🇸🇬SG-91.243.81.128-4888
   - 57|1582ms|🇯🇵JP-85.234.83.36-4890
   - 58|1592ms|🇸🇬SG-81.28.13.180-4886
-- name: 🔯 故障转移
-  type: fallback
-  url: http://cp.cloudflare.com/generate_204
-  interval: 300
-  proxies: *id001
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -690,6 +700,16 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - ♻️ 自动选择
+  - 01|g0.9s|3.8M|★🇮🇹_IT_意大利_6
+  - 02|g0.9s|5.0M|★🇮🇹_IT_意大利
+  - 03|g0.9s|3.0M|★🇮🇹_IT_意大利_3
+  - 04|g0.9s|3.5M|★🇮🇹_IT_意大利_4
+  - 05|g1.1s|5.3M|★D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_73294fbd
+  - 06|g1.4s|3.9M|★🇹🇷 土耳其 | TUR
+  - 07|g1.4s|3.8M|★D🔴🇹🇼hos[🎬📺🎭🎪]_dokng.com_69bf9397
+  - 08|g1.5s|2.1M|★vless-1886174159
+  - 09|g1.6s|4.5M|★A🟢🇰🇷res[🎬🤖📺🎭]_dokng.com_8c4c28a6
+  - 10|g3.4s|4.2M|★🇮🇹_IT_意大利_5
   - DIRECT
 - name: Ⓜ️ 微软服务
   type: select
