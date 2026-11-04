@@ -1,6 +1,6 @@
 # ============================================================
 # Clash Meta for Android 手机配置（自动生成，请勿手工编辑）
-# 生成时间: 2026-11-04 13:35:03
+# 生成时间: 2026-11-04 13:38:57
 # 节点来源: 17 个公开订阅源聚合 + 本机实测存活筛选
 # 候选池: 6461 个 -> 实测可用: 25 个 -> 本配置收录: 22 个
 # 延迟为生成时实测值，仅供参考；Verge 内可重新测速
@@ -342,7 +342,11 @@ proxy-groups:
   - ♻️ 自动选择
   - DIRECT
 - name: 🤖 AI 服务
-  type: select
+  type: url-test
+  url: https://chatgpt.com
+  interval: 300
+  tolerance: 100
+  lazy: true
   proxies:
   - '01|g0.9s|2.8M|★🇮🇹 意大利 | ITA #1'
   - '02|g0.9s|0.7M|★🇮🇹 意大利 | ITA #2'
@@ -351,9 +355,6 @@ proxy-groups:
   - 05|g2.9s|0.1M|★A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_6377d8cd
   - '06|g4.5s|0.6M|★🇮🇹 意大利 | ITA #3'
   - '07|g8.0s|2.1M|★🇮🇹[www.v2nodes.com] ss-IT-1602... #8'
-  - 🚀 节点选择
-  - ♻️ 自动选择
-  - DIRECT
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
