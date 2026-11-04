@@ -1,8 +1,8 @@
 # ============================================================
 # Clash Meta for Android 手机配置（自动生成，请勿手工编辑）
-# 生成时间: 2026-11-04 13:43:24
+# 生成时间: 2026-11-04 20:01:52
 # 节点来源: 17 个公开订阅源聚合 + 本机实测存活筛选
-# 候选池: 6461 个 -> 实测可用: 25 个 -> 本配置收录: 22 个
+# 候选池: 6462 个 -> 实测可用: 26 个 -> 本配置收录: 23 个
 # 延迟为生成时实测值，仅供参考；Verge 内可重新测速
 # ============================================================
 
@@ -32,33 +32,106 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
 proxies:
-- name: '01|g0.9s|2.8M|★🇮🇹 意大利 | ITA #1'
+- name: 01|g0.9s|0.6M|★trojan-1939845099
+  type: trojan
+  server: 167.88.61.20
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  skip-cert-verify: false
+  sni: api.browseseniorrolesandenhanceyourcareertoday.com
+  udp: true
+- name: '02|g0.9s|0.6M|🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '03|g1.4s|0.4M|🇮🇹[www.v2nodes.com] ss-IT-1602... #2'
+  type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 04|g1.4s|0.1M|🇷🇺RU-46.17.46.27-0280
+  type: ss
+  server: 46.17.46.27
+  port: 18443
+  cipher: aes-256-gcm
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+  udp: true
+- name: '05|g1.6s|1.9M|🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
+  type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '06|g1.8s|0.6M|🇮🇹[www.v2nodes.com] ss-IT-1602... #8'
+  type: ss
+  server: 202.50.253.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 07|g1.8s|0.2M|🇮🇹[www.v2nodes.com] ss-IT-1602...
+  type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '08|g2.0s|0.4M|🇮🇹 意大利 | ITA #3'
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 09|g2.4s|0.1M|A🟢🇺🇸res[🎬🤖📺🎭]_dokng.com_58da7346
+  type: vless
+  server: 87.232.88.27
+  port: 443
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc-67
+  network: grpc
+  reality-opts:
+    public-key: 4qE0kXmxDvNzsns2jdwd74AN35RptcTD4eKo5REa9w8
+    short-id: '04'
+  servername: max.ru
+  tls: true
+  udp: true
+  uuid: e08d9bc5-6832-4dd4-bd44-d9bbe61e5817
+  xudp: true
+- name: '10|g3.3s|0.2M|🇮🇹[www.v2nodes.com] ss-IT-1602... #5'
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 11|g3.4s|0.6M|ProxyPool | 🇫🇷 法国 | FRA
+  type: vless
+  server: 62.210.70.194
+  port: 37783
+  uuid: a289c660-1b12-432b-a06c-c2ae469272b0
+  tls: true
+  encryption: mlkem768x25519plus.native.0rtt.I5ge5qOTUhKE8xpufKI84yktvqqG9qkViwYe20uFZUyGwbnK7QMv6Tih0subInSmZTyem1QFG1CDFvGfgMBu3Yw1ryNJfGjMnALAqZawBoukaROcTzxXmFAzuejDalyhxxfNJkeUefW3biOHIzcu_AairYSvJ8l_iHJpKVEKXZWPQWiq-tm_nPJz_oDDhFElaCHKnCslodSen2M6afQQ0HYKc6nKZmZwc1cHG1GKW9xHx6CBfLhFVOhT62tCvbxShul1NJgL-shELnovAtS1aHBFQKDOIiJYC7Ww0awUfsyGIFhnJIhdnqFHnkG7sOcdiWiH-ZkQ11p065zAWEQ14HTOi-aqCAsnWNwdRxwj1_qlArYd3nNF1dXKARRikbMFutC5GyyvSJxk7XwHRGWoK_q6_zK2amtIrsin6tov5kKs3UqywFJMJ2rMtgYZXpvK_TdXumLGUimIq9vFW7idpbMlv9F84NY8UbtrkyB87IQwdKqbtnuOMzxkYik-i9N5vaKcXLSdOGRpMgAKSMt5NbSyllcEh6qUTZoVb_h8ZmYij8csvbGWxodCj1WvOGoRtGGnTSpWMdG3X3ZxXlhNQ6tpIPGTfxkzjPtRjHQDcqm0fgrLjWONnkGxMQRO-Wi50vzNPzW9Vuy5BlZszdGqpjLNRLGw24JTAYKXpxiUkTxUxhO3LRC8kMvGVBgxjImwmwev1IqfPiVIMSwhV0FAMNw27nALh0qyPnNLbFpbTFuTL6V83YypFDl1yahns_AE86ufKnSAaSs_0PwMM_ZDfkhE7nRKCygaD9UjWWygRWq6fZarZahcTAqrZUYPXWxqDsrE7VRYO3ch70AHi6ZXTyKR1YcyM0Kiw3S0kxpjbtWReOJ3lXwry-BjcusDKhRsAxErDIBD6IFuY5ucRTtpfPoNgiq7rSFG8SFNvTe-_wh39Bwjj3JeRnw6kzujiKgxGiAH9GYm6LVvG2ljdWacJjSyoDE6mbFwgRCGdDh4h6eMCPs7hjQmNByx76lb0PYt-BuD9xCfiEFMoKJzTjWUvOy1gbmOrjY5xtkkByo8PCS40YRqXiYQ0Me9U5t_lsdxrvO6f7ajFHBNp_IiQOAstWu9UKC2hiABnVWbHaTFeQSp0tAx9rm5vehC0_a3EAHByGzGFUQ-QWpUO5mvGzZKpPVQrgovg2GsgepxgOMymOgv2CbLNKiwAJJyjDe5d5yXiueH3ZdppJqepXrOGuGOn3e-8RKVu3I-nCp-aMS769Yl5mmS8BYOpxW3HseSzZZMIta4hjsa7hqSgmycflvLV5x-8bM9iBFZ7iOey9oYyEkEbFN-6-Alh2dQfopjE2QNFqW6KatBKHXKHNVoayoc4ZegDKPNAEnAo9wIHkBpDFC-fVoCkGMDcRSeNbF67keruuE0xfMA8ltaklEyRwMcxVQwMhILq6vKlzpJF9OJMGVg5amP_-i4NAsKEfC8Ayp61gByykoWKTWkuLAEAYtXXNIfQ9BPvZca1BITgpC69lapO4SH1UAZ4KRxOTVtbHES_GsjM_lkTv940p3IDkG7jfvxIfY_Q9C3QVbkilRpPvg
+  reality-opts:
+    public-key: tQeEamJmYVUUfjRLX7ETvMnPj4DrHzRhR5TI684oYgg
+    short-id: 21569dd6
+  servername: www.yahoo.com
+  client-fingerprint: chrome
+  network: xhttp
+  xhttp-opts:
+    path: /OCrp5Ajs
+    host: www.yahoo.com
+    mode: auto
+  udp: true
+- name: '12|g3.9s|0.5M|🇮🇹 意大利 | ITA #1'
   type: ss
   server: 202.50.253.63
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '02|g0.9s|0.7M|★🇮🇹 意大利 | ITA #2'
-  type: ss
-  server: 202.50.253.90
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 03|g1.0s|3.0M|★🇮🇹[www.v2nodes.com] ss-IT-1602...
-  type: ss
-  server: 202.50.253.54
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: '04|g1.8s|0.6M|★🇮🇹[www.v2nodes.com] ss-IT-1602... #5'
-  type: ss
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 05|g2.9s|0.1M|★A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_6377d8cd
+- name: 13|g3.9s|0.7M|A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_6377d8cd
   type: vless
   server: 59.125.69.23
   port: 443
@@ -72,82 +145,20 @@ proxies:
     headers:
       Host: ty986gfazs.cainiaohub.xyz
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-- name: '06|g4.5s|0.6M|★🇮🇹 意大利 | ITA #3'
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '07|g8.0s|2.1M|★🇮🇹[www.v2nodes.com] ss-IT-1602... #8'
-  type: ss
-  server: 202.50.253.27
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: '08|g1.0s|0.7M|🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
+- name: '14|g6.0s|0.6M|🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
   type: ss
   server: 202.50.253.99
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: '09|g1.3s|0.3M|🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
+- name: '15|g7.0s|1.9M|🇮🇹 意大利 | ITA #2'
   type: ss
-  server: 202.50.253.45
+  server: 202.50.253.90
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: '10|g1.4s|2.3M|🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
-  type: ss
-  server: 202.50.253.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 11|g1.9s|0.1M|🇪🇸 西班牙 | ESP
-  type: vless
-  server: 194.62.97.228
-  port: 3389
-  uuid: e7a05cf9-293c-42e6-9bb6-d165df68b165
-  tls: false
-  encryption: mlkem768x25519plus.native.0rtt.eaclKeeXyGFTK2lSqekvGvNBflYT0ZJFt6LC_awMMaFXopde8lOGy8nPGioBWwud5lsUPNBI1Kgr2DUhrqmi78VlS-DB4wivGKla77wIQ2nGqSmq3cXPjUEO_xibnScm3GlpLgVzTdOFCiuPMPIdi-W-DNMMbRpLP_h4b1GAfSLIf9sKk4Q4GWwwgrJa0VGxl_CHrpp9MTczUTgU1LUr1LetEJLMEKknqXbBu-XMmUa2sqIxMxVa33eL5HHG0ARoezVyo3KsqsJCp1abLcFudSmtxbQVeRw0OQAZpGe84ZiN6wZqgWJOGmB3-sbH5lykQUY7_HRdAzYZbaqjWlsc2VCQIGiZ0wEmNQclKySsDUQ4p4O5nmGw4EemeRB3I-tqrgEaFtcmbDAA5WZmZ8WIwOq36gtJyYZKz-ibMxMxWnSWACa4XoE8RLYRPSod-RA5u5trxSI9j_XGRGu6MaKV2MtduudWUVxo6EaMEGMLSmBEIMtX1Yh77WyIHZdOcpNCkaACtctBEuzPRVAUwpAo7pOiNuCzeQwIppup0kgw5doq6wc_mnkKAkqQ9yDO64a3mzaESQe7LzCYpxJDmUBQ8dOF5HGrReRQyLxHDqY1MsCQQ9LCNmQv5wyHWjK6IWJhGoYsqZhrZbhuAsaUbEYSHCQ0y6CAWigI8uuYAPaxM0mzUmRun-UAMppX6veuHZNb-PJvd2SpjpdxRKdCpfVXHFzNqvU6L4qMm1pxPTak82ujantT4PQ71NEIXQSqRAKujOYhw6qhVmCQfctBu9wed7E635xLsyesfbxZQAErjahgcoyXFxhOQ8lGGGmKCClWRtIW9qp4rdsFG9WO1boL1EMh7askQCM5HBhvx3Rvr2ly3MUmRWGkdZsF-0SduwYpK4EJd3t03UMPd5g5htUS4UAvC_VZGQaR0jF1XURE47JU4TnAdiQ0-wER7DOWZYCR1_CLWYogLRhM6ZSL_gTM-ZKmfLd8gEYQJ1yHgeaZnJSb5CQi_iwFumKdOQBu0sJkgcglKGBc4KVawnaAtpw9HcqQBmSnQ0QhSCKNH8If2XaE2DiPwlkYZTO0nWQPXYw7rCJeKceUpXowKyOThgKvvzQ3lIDBLVC5vCKfJPGJSXQGKjCEd0FQVOU8tUR16zSYNaGy1xdMwzcX-HcqTlqZTGWE8rp44gqc40VI4EItjmuIc1Jd5CpB9xAR-UsB-NpG-GM4WQYu9KksoocXnPoIiVy5EYJO5IotI0ZuGFNETiu-Gzg6hoQtNvNao9mO1DGj3YlsjzBU7LmBTGadHExNfPQBhfsxm3tJEpRX0Nk9AZEBCeqtpfPDidbI_7F6UVC0enJVW1y8L-dCwAi5F8tGQxu9f3YZJoE2lSlM73lZCrlZsEoSqVjGdXpYltlPCywm-WOoLdlMrcuf16BQ8ZIS8TYD0kcl95K4T5gMcZCamiY_ChF2K9KueextiMZ1AhZYbeV0h6xLERsEYiVeSss7Ptt1INJhYyCOCRh7SYifA1rIoUqtOLs5IYWNfWQC5mpeeZIpB6tFD3LV_tl1uUyQRf1EBzJsnqRnEZKRSVn7e9Y
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - b--g.bntabriz.ir
   udp: true
-- name: '12|g2.7s|1.5M|🇨🇿 捷克 | CZE #1'
-  type: vless
-  server: 31.76.7.233
-  port: 443
-  alpn:
-  - h2
-  client-fingerprint: firefox
-  network: xhttp
-  servername: e2865c20.con.rasterparcel.tech
-  tls: true
-  udp: true
-  uuid: f8bdf363-ff05-4fe6-a013-a5605266657e
-  xhttp-opts:
-    mode: auto
-    path: /conv4/stream/d34366ecdd31367d0fc76955c6b8d77c
-- name: '13|g4.0s|0.8M|🇮🇹[www.v2nodes.com] ss-IT-1602... #2'
-  type: ss
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 14|g4.9s|C🟠🇭🇰hos[📺🎭✨🎞️]_dokng.com_27a4152d
-  type: mieru
-  server: 83.229.127.87
-  port: 15212
-  password: afa31ea7-0b97-4bc9-b043-daaeca4aef70
-  transport: TCP
-  username: afa31ea7-0b97-4bc9-b043-daaeca4aef70
-- name: 15|186ms|0.6M|U⚪🏳️ukn_dokng.com_79f3708c
+- name: 16|189ms|0.8M|U⚪🏳️ukn_dokng.com_79f3708c
   type: trojan
   server: 185.220.238.77
   port: 11543
@@ -161,23 +172,7 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /api
-- name: 16|230ms|0.2M|U⚪🏳️ukn[✈️]_dokng.com_3cdeab8d
-  type: vless
-  server: 9.247.23.209
-  port: 443
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  network: tcp
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  servername: mother-earth.fyi
-  tls: true
-  udp: true
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  xudp: true
-- name: 17|297ms|0.5M|U⚪🏳️ukn[✈️]_dokng.com_dc19d1d8
+- name: 17|361ms|2.7M|U⚪🏳️ukn[✈️]_dokng.com_dc19d1d8
   type: vless
   server: 5.42.99.64
   port: 8443
@@ -193,24 +188,29 @@ proxies:
   udp: true
   uuid: c53ea5e9-ed8b-4990-805d-7f1d6451426c
   xudp: true
-- name: 18|470ms|0.8M|U⚪🏳️ukn_dokng.com_373f298c
-  type: vmess
-  server: 172.67.190.164
+- name: 18|154ms|🇯🇵[www.v2nodes.com] ss-JP-1599...
+  type: ss
+  server: 154.36.158.197
+  port: 8388
+  cipher: aes-256-gcm
+  password: BeaUf9c0AEWH40Pu
+- name: 19|230ms|0.1M|U⚪🏳️ukn[✈️]_dokng.com_3cdeab8d
+  type: vless
+  server: 9.247.23.209
   port: 443
-  alterId: 0
-  cipher: auto
-  network: ws
-  servername: guanwang.awsno.com
-  skip-cert-verify: false
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  servername: mother-earth.fyi
   tls: true
   udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  ws-opts:
-    headers:
-      Host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
   xudp: true
-- name: 19|295ms|U⚪🏳️ukn_dokng.com_464e0151
+- name: 20|258ms|U⚪🏳️ukn_dokng.com_464e0151
   type: vless
   server: 179.43.187.67
   port: 443
@@ -225,7 +225,7 @@ proxies:
   udp: true
   uuid: 9dd38d60-e683-47c6-bd53-d71bdfee78f3
   xudp: true
-- name: 20|573ms|0.1M|U⚪🏳️ukn_dokng.com_9fff1298
+- name: 21|1046ms|0.1M|U⚪🏳️ukn_dokng.com_9fff1298
   type: vmess
   server: www.shopify.com
   port: 443
@@ -241,37 +241,29 @@ proxies:
     headers:
       Host: guanwang.awsno.com
     path: /hls/cctv5phd.m3u8
-- name: 21|505ms|0.1M|🇮🇷 伊朗 | IRN
+- name: 22|1092ms|0.2M|trojan-1939845055
+  type: trojan
+  server: 216.152.147.74
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  skip-cert-verify: false
+  sni: api.connectingpeoplewithgreatjobs.com
+  udp: true
+- name: 23|1295ms|ProxyPool | 🇩🇪 德国 | DEU 4
   type: vless
-  server: 198.16.113.219
-  port: 8443
-  uuid: e3e0e1c3-599e-4ae1-8ad4-d9e90effacc4
+  server: 185.44.64.166
+  port: 59397
+  uuid: ac36b6f8-d03d-46cb-808f-e655183fb76d
   tls: true
   flow: xtls-rprx-vision
+  encryption: mlkem768x25519plus.native.0rtt.sphudmOm4wKYnBGDTU6kl6-KH7fdQ1VzXp58hEAn3zU
   reality-opts:
-    public-key: 8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE
-    short-id: 69984b9e02545831
-  servername: www.apple.com
+    public-key: 7w6m1Z7wZk1KX7bBlCi50t_8T-HdC8aMizOcIyqcaS4
+    short-id: '1430'
+  servername: la.blogs.nvidia.com
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 22|1628ms|0.1M|🇸🇬_SG_新加坡_IPV4 (2)
-  type: vless
-  server: 85.137.51.53
-  port: 443
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  tls: true
-  servername: t5pmr.mail-node.gfw.kdns.fr
-  sni: t5pmr.mail-node.gfw.kdns.fr
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /danfeng?ed=2560
-    headers:
-      Host: t5pmr.mail-node.gfw.kdns.fr
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -279,28 +271,29 @@ proxy-groups:
   - ♻️ 自动选择
   - 🔯 故障转移
   - DIRECT
-  - '01|g0.9s|2.8M|★🇮🇹 意大利 | ITA #1'
-  - '02|g0.9s|0.7M|★🇮🇹 意大利 | ITA #2'
-  - 03|g1.0s|3.0M|★🇮🇹[www.v2nodes.com] ss-IT-1602...
-  - '04|g1.8s|0.6M|★🇮🇹[www.v2nodes.com] ss-IT-1602... #5'
-  - 05|g2.9s|0.1M|★A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_6377d8cd
-  - '06|g4.5s|0.6M|★🇮🇹 意大利 | ITA #3'
-  - '07|g8.0s|2.1M|★🇮🇹[www.v2nodes.com] ss-IT-1602... #8'
-  - '08|g1.0s|0.7M|🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
-  - '09|g1.3s|0.3M|🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
-  - '10|g1.4s|2.3M|🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
-  - 11|g1.9s|0.1M|🇪🇸 西班牙 | ESP
-  - '12|g2.7s|1.5M|🇨🇿 捷克 | CZE #1'
-  - '13|g4.0s|0.8M|🇮🇹[www.v2nodes.com] ss-IT-1602... #2'
-  - 14|g4.9s|C🟠🇭🇰hos[📺🎭✨🎞️]_dokng.com_27a4152d
-  - 15|186ms|0.6M|U⚪🏳️ukn_dokng.com_79f3708c
-  - 16|230ms|0.2M|U⚪🏳️ukn[✈️]_dokng.com_3cdeab8d
-  - 17|297ms|0.5M|U⚪🏳️ukn[✈️]_dokng.com_dc19d1d8
-  - 18|470ms|0.8M|U⚪🏳️ukn_dokng.com_373f298c
-  - 19|295ms|U⚪🏳️ukn_dokng.com_464e0151
-  - 20|573ms|0.1M|U⚪🏳️ukn_dokng.com_9fff1298
-  - 21|505ms|0.1M|🇮🇷 伊朗 | IRN
-  - 22|1628ms|0.1M|🇸🇬_SG_新加坡_IPV4 (2)
+  - 01|g0.9s|0.6M|★trojan-1939845099
+  - '02|g0.9s|0.6M|🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
+  - '03|g1.4s|0.4M|🇮🇹[www.v2nodes.com] ss-IT-1602... #2'
+  - 04|g1.4s|0.1M|🇷🇺RU-46.17.46.27-0280
+  - '05|g1.6s|1.9M|🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
+  - '06|g1.8s|0.6M|🇮🇹[www.v2nodes.com] ss-IT-1602... #8'
+  - 07|g1.8s|0.2M|🇮🇹[www.v2nodes.com] ss-IT-1602...
+  - '08|g2.0s|0.4M|🇮🇹 意大利 | ITA #3'
+  - 09|g2.4s|0.1M|A🟢🇺🇸res[🎬🤖📺🎭]_dokng.com_58da7346
+  - '10|g3.3s|0.2M|🇮🇹[www.v2nodes.com] ss-IT-1602... #5'
+  - 11|g3.4s|0.6M|ProxyPool | 🇫🇷 法国 | FRA
+  - '12|g3.9s|0.5M|🇮🇹 意大利 | ITA #1'
+  - 13|g3.9s|0.7M|A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_6377d8cd
+  - '14|g6.0s|0.6M|🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
+  - '15|g7.0s|1.9M|🇮🇹 意大利 | ITA #2'
+  - 16|189ms|0.8M|U⚪🏳️ukn_dokng.com_79f3708c
+  - 17|361ms|2.7M|U⚪🏳️ukn[✈️]_dokng.com_dc19d1d8
+  - 18|154ms|🇯🇵[www.v2nodes.com] ss-JP-1599...
+  - 19|230ms|0.1M|U⚪🏳️ukn[✈️]_dokng.com_3cdeab8d
+  - 20|258ms|U⚪🏳️ukn_dokng.com_464e0151
+  - 21|1046ms|0.1M|U⚪🏳️ukn_dokng.com_9fff1298
+  - 22|1092ms|0.2M|trojan-1939845055
+  - 23|1295ms|ProxyPool | 🇩🇪 德国 | DEU 4
 - name: ♻️ 自动选择
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -308,28 +301,29 @@ proxy-groups:
   tolerance: 50
   lazy: true
   proxies: &id001
-  - '01|g0.9s|2.8M|★🇮🇹 意大利 | ITA #1'
-  - '02|g0.9s|0.7M|★🇮🇹 意大利 | ITA #2'
-  - 03|g1.0s|3.0M|★🇮🇹[www.v2nodes.com] ss-IT-1602...
-  - '04|g1.8s|0.6M|★🇮🇹[www.v2nodes.com] ss-IT-1602... #5'
-  - 05|g2.9s|0.1M|★A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_6377d8cd
-  - '06|g4.5s|0.6M|★🇮🇹 意大利 | ITA #3'
-  - '07|g8.0s|2.1M|★🇮🇹[www.v2nodes.com] ss-IT-1602... #8'
-  - '08|g1.0s|0.7M|🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
-  - '09|g1.3s|0.3M|🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
-  - '10|g1.4s|2.3M|🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
-  - 11|g1.9s|0.1M|🇪🇸 西班牙 | ESP
-  - '12|g2.7s|1.5M|🇨🇿 捷克 | CZE #1'
-  - '13|g4.0s|0.8M|🇮🇹[www.v2nodes.com] ss-IT-1602... #2'
-  - 14|g4.9s|C🟠🇭🇰hos[📺🎭✨🎞️]_dokng.com_27a4152d
-  - 15|186ms|0.6M|U⚪🏳️ukn_dokng.com_79f3708c
-  - 16|230ms|0.2M|U⚪🏳️ukn[✈️]_dokng.com_3cdeab8d
-  - 17|297ms|0.5M|U⚪🏳️ukn[✈️]_dokng.com_dc19d1d8
-  - 18|470ms|0.8M|U⚪🏳️ukn_dokng.com_373f298c
-  - 19|295ms|U⚪🏳️ukn_dokng.com_464e0151
-  - 20|573ms|0.1M|U⚪🏳️ukn_dokng.com_9fff1298
-  - 21|505ms|0.1M|🇮🇷 伊朗 | IRN
-  - 22|1628ms|0.1M|🇸🇬_SG_新加坡_IPV4 (2)
+  - 01|g0.9s|0.6M|★trojan-1939845099
+  - '02|g0.9s|0.6M|🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
+  - '03|g1.4s|0.4M|🇮🇹[www.v2nodes.com] ss-IT-1602... #2'
+  - 04|g1.4s|0.1M|🇷🇺RU-46.17.46.27-0280
+  - '05|g1.6s|1.9M|🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
+  - '06|g1.8s|0.6M|🇮🇹[www.v2nodes.com] ss-IT-1602... #8'
+  - 07|g1.8s|0.2M|🇮🇹[www.v2nodes.com] ss-IT-1602...
+  - '08|g2.0s|0.4M|🇮🇹 意大利 | ITA #3'
+  - 09|g2.4s|0.1M|A🟢🇺🇸res[🎬🤖📺🎭]_dokng.com_58da7346
+  - '10|g3.3s|0.2M|🇮🇹[www.v2nodes.com] ss-IT-1602... #5'
+  - 11|g3.4s|0.6M|ProxyPool | 🇫🇷 法国 | FRA
+  - '12|g3.9s|0.5M|🇮🇹 意大利 | ITA #1'
+  - 13|g3.9s|0.7M|A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_6377d8cd
+  - '14|g6.0s|0.6M|🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
+  - '15|g7.0s|1.9M|🇮🇹 意大利 | ITA #2'
+  - 16|189ms|0.8M|U⚪🏳️ukn_dokng.com_79f3708c
+  - 17|361ms|2.7M|U⚪🏳️ukn[✈️]_dokng.com_dc19d1d8
+  - 18|154ms|🇯🇵[www.v2nodes.com] ss-JP-1599...
+  - 19|230ms|0.1M|U⚪🏳️ukn[✈️]_dokng.com_3cdeab8d
+  - 20|258ms|U⚪🏳️ukn_dokng.com_464e0151
+  - 21|1046ms|0.1M|U⚪🏳️ukn_dokng.com_9fff1298
+  - 22|1092ms|0.2M|trojan-1939845055
+  - 23|1295ms|ProxyPool | 🇩🇪 德国 | DEU 4
 - name: 🔯 故障转移
   type: fallback
   url: https://www.gstatic.com/generate_204
@@ -348,13 +342,7 @@ proxy-groups:
   tolerance: 100
   lazy: true
   proxies:
-  - '01|g0.9s|2.8M|★🇮🇹 意大利 | ITA #1'
-  - '02|g0.9s|0.7M|★🇮🇹 意大利 | ITA #2'
-  - 03|g1.0s|3.0M|★🇮🇹[www.v2nodes.com] ss-IT-1602...
-  - '04|g1.8s|0.6M|★🇮🇹[www.v2nodes.com] ss-IT-1602... #5'
-  - 05|g2.9s|0.1M|★A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_6377d8cd
-  - '06|g4.5s|0.6M|★🇮🇹 意大利 | ITA #3'
-  - '07|g8.0s|2.1M|★🇮🇹[www.v2nodes.com] ss-IT-1602... #8'
+  - 01|g0.9s|0.6M|★trojan-1939845099
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
