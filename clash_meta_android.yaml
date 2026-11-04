@@ -1,6 +1,6 @@
 # ============================================================
 # Clash Meta for Android 手机配置（自动生成，请勿手工编辑）
-# 生成时间: 2026-11-04 13:38:57
+# 生成时间: 2026-11-04 13:43:24
 # 节点来源: 17 个公开订阅源聚合 + 本机实测存活筛选
 # 候选池: 6461 个 -> 实测可用: 25 个 -> 本配置收录: 22 个
 # 延迟为生成时实测值，仅供参考；Verge 内可重新测速
@@ -303,7 +303,7 @@ proxy-groups:
   - 22|1628ms|0.1M|🇸🇬_SG_新加坡_IPV4 (2)
 - name: ♻️ 自动选择
   type: url-test
-  url: http://cp.cloudflare.com/generate_204
+  url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   lazy: true
@@ -332,7 +332,7 @@ proxy-groups:
   - 22|1628ms|0.1M|🇸🇬_SG_新加坡_IPV4 (2)
 - name: 🔯 故障转移
   type: fallback
-  url: http://cp.cloudflare.com/generate_204
+  url: https://www.gstatic.com/generate_204
   interval: 300
   proxies: *id001
 - name: 🌍 国外媒体
