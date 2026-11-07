@@ -1,8 +1,8 @@
 # ============================================================
 # Clash Meta for Android 手机配置（自动生成，请勿手工编辑）
-# 生成时间: 2026-11-06 13:23:44
+# 生成时间: 2026-11-07 13:10:17
 # 节点来源: 17 个公开订阅源聚合 + 本机实测存活筛选
-# 候选池: 6271 个 -> 实测可用: 24 个 -> 本配置收录: 21 个
+# 候选池: 4200 个 -> 实测可用: 16 个 -> 本配置收录: 16 个
 # 延迟为生成时实测值，仅供参考；Verge 内可重新测速
 # ============================================================
 
@@ -32,39 +32,7 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
 proxies:
-- name: 01|g0.9s|0.9M|★🇮🇹_IT_意大利_IPV4 (4)
-  type: ss
-  server: 202.50.253.63
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-- name: 02|g0.9s|1.2M|★🇮🇹_IT_意大利_IPV4 (5)
-  type: ss
-  server: 202.50.253.18
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-- name: 03|g1.0s|0.4M|★🇮🇹_IT_意大利_IPV4 (2)
-  type: ss
-  server: 202.50.253.36
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-- name: 04|g1.0s|0.3M|★🇮🇹_IT_意大利_IPV4 (3)
-  type: ss
-  server: 202.50.253.90
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-- name: 05|g1.0s|0.8M|★🇮🇹_IT_意大利_IPV4 (8)
+- name: 01|g0.9s|2.3M|★🇮🇹_IT_意大利_IPV4 (9)
   type: ss
   server: 202.50.253.81
   port: 19999
@@ -72,7 +40,23 @@ proxies:
   cipher: aes-256-gcm
   tls: false
   skip-cert-verify: false
-- name: 06|g1.1s|0.9M|★🇮🇹_IT_意大利_IPV4 (9)
+- name: 02|g1.0s|0.4M|★🇮🇹_IT_意大利_IPV4 (2)
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- name: 03|g1.0s|1.1M|★🇮🇹_IT_意大利_IPV4 (6)
+  type: ss
+  server: 202.50.253.54
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- name: 04|g1.0s|0.4M|★🇮🇹_IT_意大利_IPV4 (10)
   type: ss
   server: 202.50.253.72
   port: 19999
@@ -80,39 +64,52 @@ proxies:
   cipher: aes-256-gcm
   tls: false
   skip-cert-verify: false
-- name: '07|g1.1s|0.5M|★🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
+- name: 05|g1.0s|0.7M|★🇮🇹_IT_意大利_IPV4
   type: ss
-  server: 202.50.253.99
+  server: 202.50.253.27
   port: 19999
-  cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 08|g1.2s|0.1M|★🇸🇪 瑞典 | SWE
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- name: 06|g1.1s|1.0M|★🇮🇹_IT_意大利_IPV4 (3)
+  type: ss
+  server: 202.50.253.90
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- name: 07|g1.1s|0.5M|★D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_50bb1f1f
   type: vless
-  server: 138.124.86.230
-  port: 48115
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 138-124-86-230-sslip-io
-  network: grpc
-  servername: 138-124-86-230.sslip.io
+  server: 104.18.1.1
+  port: 2087
+  alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  encryption: none
+  network: ws
+  packet-encoding: xudp
+  servername: 1.proxy2.us.ci.
   tls: true
-  udp: true
-  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
-- name: 09|g1.3s|0.9M|★🇳🇱 荷兰 | NLD 2
-  type: vless
-  server: 15d7fft.nl11.h1clayd.click
-  port: 443
-  uuid: b7b8ee80-db83-4276-8c68-87dc88b0b0b5
-  tls: true
-  reality-opts:
-    public-key: xv6OUZcyzEHXFMTfumuJH-1Rd4NQ0cdmWikek4mm0m4
-    short-id: c71118d9399fb8c2
-  servername: 15d7fft.nl11.h1clayd.click
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 10|g1.4s|1.1M|★🇮🇹_IT_意大利_IPV4 (7)
+  uuid: 4859c235-2530-4062-9a0b-ea859cbbf861
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 1.proxy2.us.ci.
+    max-early-data: 2560
+    path: /
+- name: 08|g1.3s|1.2M|★🇮🇹_IT_意大利_IPV4 (4)
+  type: ss
+  server: 202.50.253.63
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- name: 09|g1.3s|1.9M|★🇮🇹_IT_意大利_IPV4 (7)
   type: ss
   server: 202.50.253.45
   port: 19999
@@ -120,7 +117,7 @@ proxies:
   cipher: aes-256-gcm
   tls: false
   skip-cert-verify: false
-- name: 11|g1.9s|0.8M|★A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_dec23850
+- name: 10|g1.7s|1.2M|★A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_dec23850
   type: trojan
   server: 125.227.86.46
   port: 443
@@ -130,129 +127,68 @@ proxies:
   password: 0a9f1f5a397bd427
   skip-cert-verify: true
   sni: TG.freecodes
-- name: 12|g2.0s|0.1M|★🇮🇷 伊朗 | IRN
-  type: vless
-  server: tunell2027.crackerbinam.org
-  port: 48312
-  uuid: f47057d5-120d-4b42-b6d6-30469aef6813
-  tls: true
-  reality-opts:
-    public-key: d9eM_jy8ztZrOf3DMq1m55VQSo7bnKcG1dRnO9ktJ2Y
-    short-id: 902c315efc
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: http
+- name: 11|g2.3s|0.4M|★🇮🇹_IT_意大利_IPV4 (5)
+  type: ss
+  server: 202.50.253.18
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- name: 12|g2.5s|★A🟢🇳🇱res[🎬🤖📺🎭]_dokng.com_164a4761
+  type: ssr
+  server: 109.104.153.43
+  port: 33336
+  cipher: chacha20-ietf
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+- name: 13|g3.4s|0.3M|★🇮🇹_IT_意大利_IPV4 (8)
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- name: '14|g5.4s|★🇺🇸 美国 | USA #4'
+  type: vmess
+  server: 107.175.76.215
+  port: 1288
+  alpn:
+  - ''
+  alterId: 0
+  cipher: auto
   http-opts:
-    method: GET
-    path:
-    - /
     headers:
       Host:
-      - www.cloudflare.com
-  udp: true
-- name: 13|g2.6s|0.1M|★🇺🇸 美国 | USA 5
-  type: vless
-  server: 104.167.198.141
-  port: 9010
-  uuid: d86bb8e6-ba84-96a9-1346-5af07bb85e79
-  tls: false
-  encryption: mlkem768x25519plus.native.0rtt.cQRUHo0p5mmP3i6Q9li2sGOm9LGKXmd_tzl6XdTrVQ4
-  network: ws
-  ws-opts:
-    path: /system-health-monitoring-portal-a7e32f91
-  udp: true
-- name: 14|g2.7s|0.5M|★🇮🇹_IT_意大利_IPV4
-  type: ss
-  server: 202.50.253.27
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-- name: 15|g3.0s|0.3M|★ProxyPool | 🇩🇪 德国 | DEU 2
-  type: vless
-  server: 13.143.192.200
-  port: 443
-  uuid: caedb3a1-6395-40b9-a9a8-4b9694eb224a
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: gOzBi_a99jyGQyM5tVwDpi7EQ_3eaj-v15mHOTs9xkY
-  servername: kulek.tech
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
-- name: 16|g3.2s|0.8M|★🇮🇹_IT_意大利_IPV4 (6)
-  type: ss
-  server: 202.50.253.54
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-- name: 17|g3.2s|0.7M|★🇺🇸_US_美国_IPV4 (4)
-  type: hysteria2
-  server: starlink-ft.251313.xyz
-  port: 443
-  password: https://xship.best
-  tls: true
-  servername: xship.top
-  sni: xship.top
+      - down-cdn.dingtalk.com
+    method: GET
+    path:
+    - /QQqun-737805443
+  network: http
   skip-cert-verify: true
-- name: 18|g3.4s|0.1M|★🇫🇷 法国 | FRA 3
-  type: vless
-  server: uk.zarqivo.ir
-  port: 2053
-  uuid: c25c2329-3038-4193-9b0c-2e115630c723
-  tls: true
-  encryption: mlkem768x25519plus.native.0rtt.woF94Ad5-2zSxgXgjcNStC2CeHOpje_TUapVXAcEIVM
-  servername: Filano.zarqivo.ir
-  client-fingerprint: chrome
-  network: xhttp
-  xhttp-opts:
-    path: /
-    host: uk.zarqivo.ir
-    mode: auto
+  tls: false
   udp: true
-- name: '19|g2.8s|0.2M|🇯🇵 日本 | JPN #1'
-  type: ss
-  server: 154.36.158.197
-  port: 8388
-  cipher: aes-256-gcm
-  password: BeaUf9c0AEWH40Pu
-  udp: true
-- name: '20|g3.6s|3.7M|🇷🇺 俄罗斯 | RUS #2'
-  type: vless
-  server: cdn-ya.shamanapp.online
-  port: 443
+  uuid: 29a72eac-a4d1-4526-8fa0-d3ecc4e38b44
+- name: 15|257ms|1.0M|A🟢🇨🇳res_dokng.com_76d41979
+  type: vmess
+  server: 120.48.133.162
+  port: 10086
   alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  network: xhttp
-  servername: cdn-ya.shamanapp.online
-  tls: true
-  uuid: 40c8a202-4b7f-45a6-b0aa-37db0fac4df8
-  xhttp-opts:
-    host: cdn-ya.shamanapp.online
-    mode: packet-up
-    no-grpc-header: true
-    path: /media/hls/720p/
-    sc-max-each-post-bytes: 20000
-    sc-min-posts-interval-ms: 5
-    seq-key: page
-    seq-placement: query
-    uplink-chunk-size: 20000
-    uplink-data-key: X-Request-Id
-    uplink-data-placement: header
-    uplink-http-method: GET
-    x-padding-bytes: 100-1000
-    x-padding-header: X-Cache
-    x-padding-key: _dc
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: header
-- name: 21|182ms|1.2M|U⚪🏳️ukn_dokng.com_79f3708c
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  uuid: 2a489513-46b5-488c-9899-9faaf2d83cd9
+  ws-opts:
+    headers: {}
+    path: /
+  xudp: true
+- name: 16|174ms|0.4M|U⚪🏳️ukn_dokng.com_79f3708c
   type: trojan
   server: 185.220.238.77
   port: 11543
@@ -273,27 +209,22 @@ proxy-groups:
   - ♻️ 自动选择
   - 🔯 故障转移
   - DIRECT
-  - 01|g0.9s|0.9M|★🇮🇹_IT_意大利_IPV4 (4)
-  - 02|g0.9s|1.2M|★🇮🇹_IT_意大利_IPV4 (5)
-  - 03|g1.0s|0.4M|★🇮🇹_IT_意大利_IPV4 (2)
-  - 04|g1.0s|0.3M|★🇮🇹_IT_意大利_IPV4 (3)
-  - 05|g1.0s|0.8M|★🇮🇹_IT_意大利_IPV4 (8)
-  - 06|g1.1s|0.9M|★🇮🇹_IT_意大利_IPV4 (9)
-  - '07|g1.1s|0.5M|★🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
-  - 08|g1.2s|0.1M|★🇸🇪 瑞典 | SWE
-  - 09|g1.3s|0.9M|★🇳🇱 荷兰 | NLD 2
-  - 10|g1.4s|1.1M|★🇮🇹_IT_意大利_IPV4 (7)
-  - 11|g1.9s|0.8M|★A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_dec23850
-  - 12|g2.0s|0.1M|★🇮🇷 伊朗 | IRN
-  - 13|g2.6s|0.1M|★🇺🇸 美国 | USA 5
-  - 14|g2.7s|0.5M|★🇮🇹_IT_意大利_IPV4
-  - 15|g3.0s|0.3M|★ProxyPool | 🇩🇪 德国 | DEU 2
-  - 16|g3.2s|0.8M|★🇮🇹_IT_意大利_IPV4 (6)
-  - 17|g3.2s|0.7M|★🇺🇸_US_美国_IPV4 (4)
-  - 18|g3.4s|0.1M|★🇫🇷 法国 | FRA 3
-  - '19|g2.8s|0.2M|🇯🇵 日本 | JPN #1'
-  - '20|g3.6s|3.7M|🇷🇺 俄罗斯 | RUS #2'
-  - 21|182ms|1.2M|U⚪🏳️ukn_dokng.com_79f3708c
+  - 01|g0.9s|2.3M|★🇮🇹_IT_意大利_IPV4 (9)
+  - 02|g1.0s|0.4M|★🇮🇹_IT_意大利_IPV4 (2)
+  - 03|g1.0s|1.1M|★🇮🇹_IT_意大利_IPV4 (6)
+  - 04|g1.0s|0.4M|★🇮🇹_IT_意大利_IPV4 (10)
+  - 05|g1.0s|0.7M|★🇮🇹_IT_意大利_IPV4
+  - 06|g1.1s|1.0M|★🇮🇹_IT_意大利_IPV4 (3)
+  - 07|g1.1s|0.5M|★D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_50bb1f1f
+  - 08|g1.3s|1.2M|★🇮🇹_IT_意大利_IPV4 (4)
+  - 09|g1.3s|1.9M|★🇮🇹_IT_意大利_IPV4 (7)
+  - 10|g1.7s|1.2M|★A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_dec23850
+  - 11|g2.3s|0.4M|★🇮🇹_IT_意大利_IPV4 (5)
+  - 12|g2.5s|★A🟢🇳🇱res[🎬🤖📺🎭]_dokng.com_164a4761
+  - 13|g3.4s|0.3M|★🇮🇹_IT_意大利_IPV4 (8)
+  - '14|g5.4s|★🇺🇸 美国 | USA #4'
+  - 15|257ms|1.0M|A🟢🇨🇳res_dokng.com_76d41979
+  - 16|174ms|0.4M|U⚪🏳️ukn_dokng.com_79f3708c
 - name: ♻️ 自动选择
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -301,27 +232,22 @@ proxy-groups:
   tolerance: 50
   lazy: true
   proxies: &id001
-  - 01|g0.9s|0.9M|★🇮🇹_IT_意大利_IPV4 (4)
-  - 02|g0.9s|1.2M|★🇮🇹_IT_意大利_IPV4 (5)
-  - 03|g1.0s|0.4M|★🇮🇹_IT_意大利_IPV4 (2)
-  - 04|g1.0s|0.3M|★🇮🇹_IT_意大利_IPV4 (3)
-  - 05|g1.0s|0.8M|★🇮🇹_IT_意大利_IPV4 (8)
-  - 06|g1.1s|0.9M|★🇮🇹_IT_意大利_IPV4 (9)
-  - '07|g1.1s|0.5M|★🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
-  - 08|g1.2s|0.1M|★🇸🇪 瑞典 | SWE
-  - 09|g1.3s|0.9M|★🇳🇱 荷兰 | NLD 2
-  - 10|g1.4s|1.1M|★🇮🇹_IT_意大利_IPV4 (7)
-  - 11|g1.9s|0.8M|★A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_dec23850
-  - 12|g2.0s|0.1M|★🇮🇷 伊朗 | IRN
-  - 13|g2.6s|0.1M|★🇺🇸 美国 | USA 5
-  - 14|g2.7s|0.5M|★🇮🇹_IT_意大利_IPV4
-  - 15|g3.0s|0.3M|★ProxyPool | 🇩🇪 德国 | DEU 2
-  - 16|g3.2s|0.8M|★🇮🇹_IT_意大利_IPV4 (6)
-  - 17|g3.2s|0.7M|★🇺🇸_US_美国_IPV4 (4)
-  - 18|g3.4s|0.1M|★🇫🇷 法国 | FRA 3
-  - '19|g2.8s|0.2M|🇯🇵 日本 | JPN #1'
-  - '20|g3.6s|3.7M|🇷🇺 俄罗斯 | RUS #2'
-  - 21|182ms|1.2M|U⚪🏳️ukn_dokng.com_79f3708c
+  - 01|g0.9s|2.3M|★🇮🇹_IT_意大利_IPV4 (9)
+  - 02|g1.0s|0.4M|★🇮🇹_IT_意大利_IPV4 (2)
+  - 03|g1.0s|1.1M|★🇮🇹_IT_意大利_IPV4 (6)
+  - 04|g1.0s|0.4M|★🇮🇹_IT_意大利_IPV4 (10)
+  - 05|g1.0s|0.7M|★🇮🇹_IT_意大利_IPV4
+  - 06|g1.1s|1.0M|★🇮🇹_IT_意大利_IPV4 (3)
+  - 07|g1.1s|0.5M|★D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_50bb1f1f
+  - 08|g1.3s|1.2M|★🇮🇹_IT_意大利_IPV4 (4)
+  - 09|g1.3s|1.9M|★🇮🇹_IT_意大利_IPV4 (7)
+  - 10|g1.7s|1.2M|★A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_dec23850
+  - 11|g2.3s|0.4M|★🇮🇹_IT_意大利_IPV4 (5)
+  - 12|g2.5s|★A🟢🇳🇱res[🎬🤖📺🎭]_dokng.com_164a4761
+  - 13|g3.4s|0.3M|★🇮🇹_IT_意大利_IPV4 (8)
+  - '14|g5.4s|★🇺🇸 美国 | USA #4'
+  - 15|257ms|1.0M|A🟢🇨🇳res_dokng.com_76d41979
+  - 16|174ms|0.4M|U⚪🏳️ukn_dokng.com_79f3708c
 - name: 🔯 故障转移
   type: fallback
   url: https://www.gstatic.com/generate_204
@@ -340,24 +266,20 @@ proxy-groups:
   tolerance: 100
   lazy: true
   proxies:
-  - 01|g0.9s|0.9M|★🇮🇹_IT_意大利_IPV4 (4)
-  - 02|g0.9s|1.2M|★🇮🇹_IT_意大利_IPV4 (5)
-  - 03|g1.0s|0.4M|★🇮🇹_IT_意大利_IPV4 (2)
-  - 04|g1.0s|0.3M|★🇮🇹_IT_意大利_IPV4 (3)
-  - 05|g1.0s|0.8M|★🇮🇹_IT_意大利_IPV4 (8)
-  - 06|g1.1s|0.9M|★🇮🇹_IT_意大利_IPV4 (9)
-  - '07|g1.1s|0.5M|★🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
-  - 08|g1.2s|0.1M|★🇸🇪 瑞典 | SWE
-  - 09|g1.3s|0.9M|★🇳🇱 荷兰 | NLD 2
-  - 10|g1.4s|1.1M|★🇮🇹_IT_意大利_IPV4 (7)
-  - 11|g1.9s|0.8M|★A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_dec23850
-  - 12|g2.0s|0.1M|★🇮🇷 伊朗 | IRN
-  - 13|g2.6s|0.1M|★🇺🇸 美国 | USA 5
-  - 14|g2.7s|0.5M|★🇮🇹_IT_意大利_IPV4
-  - 15|g3.0s|0.3M|★ProxyPool | 🇩🇪 德国 | DEU 2
-  - 16|g3.2s|0.8M|★🇮🇹_IT_意大利_IPV4 (6)
-  - 17|g3.2s|0.7M|★🇺🇸_US_美国_IPV4 (4)
-  - 18|g3.4s|0.1M|★🇫🇷 法国 | FRA 3
+  - 01|g0.9s|2.3M|★🇮🇹_IT_意大利_IPV4 (9)
+  - 02|g1.0s|0.4M|★🇮🇹_IT_意大利_IPV4 (2)
+  - 03|g1.0s|1.1M|★🇮🇹_IT_意大利_IPV4 (6)
+  - 04|g1.0s|0.4M|★🇮🇹_IT_意大利_IPV4 (10)
+  - 05|g1.0s|0.7M|★🇮🇹_IT_意大利_IPV4
+  - 06|g1.1s|1.0M|★🇮🇹_IT_意大利_IPV4 (3)
+  - 07|g1.1s|0.5M|★D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_50bb1f1f
+  - 08|g1.3s|1.2M|★🇮🇹_IT_意大利_IPV4 (4)
+  - 09|g1.3s|1.9M|★🇮🇹_IT_意大利_IPV4 (7)
+  - 10|g1.7s|1.2M|★A🟢🇹🇼res[🎬🤖📺🎭]_dokng.com_dec23850
+  - 11|g2.3s|0.4M|★🇮🇹_IT_意大利_IPV4 (5)
+  - 12|g2.5s|★A🟢🇳🇱res[🎬🤖📺🎭]_dokng.com_164a4761
+  - 13|g3.4s|0.3M|★🇮🇹_IT_意大利_IPV4 (8)
+  - '14|g5.4s|★🇺🇸 美国 | USA #4'
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
