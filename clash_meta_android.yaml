@@ -1,8 +1,8 @@
 # ============================================================
 # Clash Meta for Android 手机配置（自动生成，请勿手工编辑）
-# 生成时间: 2026-11-12 08:31:37
+# 生成时间: 2026-11-13 11:34:17
 # 节点来源: 26 个公开订阅源聚合 + 本机实测存活筛选
-# 候选池: 14032 个 -> 实测可用: 41 个 -> 本配置收录: 39 个
+# 候选池: 14133 个 -> 实测可用: 45 个 -> 本配置收录: 41 个
 # 延迟为生成时实测值，仅供参考；Verge 内可重新测速
 # ============================================================
 
@@ -32,23 +32,31 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
 proxies:
-- name: 01|g0.7s|1.9M|★荷兰 018
-  type: vless
-  server: 188.164.248.110
-  port: 443
+- name: 01|g0.4s|10.8M|★🇳🇱荷兰 广播IP 25.96MB/s 566 linuxdo@onimaii [6aec8a3d9a64]
+  type: ss
+  server: 13.231.100.94
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)af2501f:110406
+    mode: tls
+  x-toolall-mihomo: true
+- name: 02|g0.8s|0.4M|★Oracle-Micro [ca9a7046eafe]
+  type: vmess
+  server: 168.110.63.247
+  port: 8081
+  alterId: 0
+  cipher: auto
   network: ws
-  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
-  servername: imanvipreserved.pages.dev
-  skip-cert-verify: true
-  tls: true
+  tls: false
   udp: true
-  tfo: false
-  client-fingerprint: chrome
+  uuid: c3bde296-8e44-4b8c-a325-577d5b3cc7c8
   ws-opts:
-    headers:
-      Host: imanvipreserved.pages.dev
-    path: /flow=
-- name: 02|g0.9s|4.5M|★🇮🇹_IT_意大利_IPV4 (3)
+    path: /vless
+  x-toolall-mihomo: true
+- name: 03|g0.9s|0.5M|★🇮🇹_IT_意大利_IPV4 (3)
   type: ss
   server: 202.50.253.90
   port: 19999
@@ -56,31 +64,7 @@ proxies:
   cipher: aes-256-gcm
   tls: false
   skip-cert-verify: false
-- name: 03|g0.9s|4.3M|★🇮🇹_IT_意大利_IPV4 (10)
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-- name: 04|g0.9s|4.3M|★🇮🇹_IT_意大利_IPV4 (5)
-  type: ss
-  server: 202.50.253.18
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-- name: 05|g0.9s|4.5M|★🇮🇹_IT_意大利_IPV4 (9)
-  type: ss
-  server: 202.50.253.81
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-- name: 06|g0.9s|4.6M|★🇮🇹_IT_意大利_IPV4
+- name: 04|g0.9s|1.4M|★🇮🇹_IT_意大利_IPV4
   type: ss
   server: 202.50.253.27
   port: 19999
@@ -88,7 +72,14 @@ proxies:
   cipher: aes-256-gcm
   tls: false
   skip-cert-verify: false
-- name: 07|g0.9s|4.3M|★🇮🇹_IT_意大利_IPV4 (4)
+- name: '05|g0.9s|2.3M|★🇮🇹 意大利 | ITA #1'
+  type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 06|g0.9s|2.0M|★🇮🇹_IT_意大利_IPV4 (4)
   type: ss
   server: 202.50.253.63
   port: 19999
@@ -96,15 +87,15 @@ proxies:
   cipher: aes-256-gcm
   tls: false
   skip-cert-verify: false
-- name: 08|g0.9s|4.5M|★🇮🇹_IT_意大利_IPV4 (2)
+- name: 07|g1.0s|1.3M|★🇮🇹_IT_意大利_IPV4 (8)
   type: ss
-  server: 202.50.253.36
+  server: 202.50.253.81
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
   tls: false
   skip-cert-verify: false
-- name: 09|g0.9s|4.0M|★🇮🇹_IT_意大利_IPV4 (8)
+- name: 08|g1.0s|0.8M|★🇮🇹_IT_意大利_IPV4 (7)
   type: ss
   server: 202.50.253.99
   port: 19999
@@ -112,7 +103,7 @@ proxies:
   cipher: aes-256-gcm
   tls: false
   skip-cert-verify: false
-- name: 10|g1.0s|3.8M|★🇮🇹_IT_意大利_IPV4 (7)
+- name: 09|g1.0s|1.6M|★🇮🇹_IT_意大利_IPV4 (6)
   type: ss
   server: 202.50.253.45
   port: 19999
@@ -120,7 +111,47 @@ proxies:
   cipher: aes-256-gcm
   tls: false
   skip-cert-verify: false
-- name: 11|g1.0s|4.9M|★🇮🇹_IT_意大利_IPV4 (6)
+- name: 10|g1.2s|2.2M|★🇺🇸 美国 | USA 5
+  type: vless
+  server: 156.229.167.109
+  port: 8443
+  uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
+  tls: true
+  reality-opts:
+    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
+    short-id: 4ad2e4e660550e43
+  servername: github.githubassets.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 11|g1.3s|1.5M|★🇳🇱 荷兰 | NLD 7
+  type: vless
+  server: nl2.soshelper.space
+  port: 443
+  uuid: 3a7849e7-8ef6-492f-860d-54dd6aae400a
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: mEo4kHPpRns7efJfVW1G-gDEsPag0jELFQK-HIwrvjY
+    short-id: 6562cf617728186e
+  servername: nl2.soshelper.space
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- name: 12|g1.4s|1.6M|★🇪🇸 西班牙 | ESP
+  type: vless
+  server: 9.247.174.134
+  port: 8443
+  uuid: 585a421d-d782-4420-912e-dd58ff5966d7
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
+    short-id: 974f7f8f
+  servername: play.googleapis.com
+  client-fingerprint: chrome
+  network: tcp
+- name: 13|g1.4s|1.8M|★🇮🇹_IT_意大利_IPV4 (5)
   type: ss
   server: 202.50.253.54
   port: 19999
@@ -128,130 +159,139 @@ proxies:
   cipher: aes-256-gcm
   tls: false
   skip-cert-verify: false
-- name: 12|g1.1s|6.4M|★🇳🇱 荷兰 | NLD 5
+- name: 14|g1.4s|0.5M|★🇳🇱 荷兰 | NLD 4
   type: vless
-  server: 151.101.36.2
+  server: nl3.soshelper.space
   port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  tls: true
-  alpn:
-  - h3
-  servername: accounts.fastly.com
-  client-fingerprint: edge
-  network: xhttp
-  xhttp-opts:
-    path: /
-    host: oh4.global.ssl.fastly.net
-    mode: auto
-  udp: true
-- name: 13|g1.1s|2.7M|★🆔soskeynet 🔒 VL-TCP-N/A 🇷🇺 RU 140ms
-  type: vless
-  server: 196.240.125.6
-  port: 8443
-  uuid: 97fd7807-7e2b-49da-8a0e-e40197088f97
-  udp: true
-  tls: true
-  servername: api-v2-6af3f40b.vmagnum.win
-  client-fingerprint: safari
-  network: tcp
-  flow: xtls-rprx-vision
-  alpn:
-  - h2
-- name: 14|g1.2s|5.0M|★德国 001
-  type: vless
-  server: 5.83.129.236
-  port: 443
-  network: grpc
-  uuid: d86e6fda-e519-46ab-98eb-9ff9a9da5984
-  servername: host-de-upscale.cdn.cachefleet.com
-  tls: true
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: a9w9wmko0k2od14hv8v
-- name: 15|g1.2s|4.7M|★瑞士 006
-  type: vless
-  server: 138.124.242.46
-  port: 8443
-  network: grpc
-  uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
-  servername: pl2-edge.gacvpn.site
-  tls: true
-  udp: true
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: connect-pl
-- name: 16|g1.2s|0.6M|★🆔ar14n24b 🔒 VL-TCP-N/A ❔ XX 187ms
-  type: vless
-  server: 85.119.147.10
-  port: 2443
-  uuid: a60777ef-1a2e-429b-a45e-97c81492b4d8
-  udp: true
-  tls: true
-  servername: next-ru9s.earthlink.work
-  client-fingerprint: qq
-  network: tcp
-  flow: xtls-rprx-vision
-- name: 17|g1.2s|5.7M|★🇳🇱NL-109.104.153.43-0219 [ad12022f0033]
-  type: ssr
-  server: 109.104.153.43
-  port: 33336
-  cipher: chacha20-ietf
-  obfs: tls1.2_ticket_auth
-  obfs-param: ''
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  protocol-param: ''
-  x-toolall-mihomo: true
-- name: '18|g1.2s|2.9M|★🇫🇷 法国 | FRA #3'
-  type: vless
-  server: 151.101.36.246
-  port: 443
-  alpn:
-  - h3
-  client-fingerprint: edge
-  network: xhttp
-  servername: accounts.fastly.com
-  tls: true
-  udp: true
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  xhttp-opts:
-    host: ovd12.global.ssl.fastly.net
-    mode: auto
-    path: /
-- name: '19|g1.2s|0.7M|★🇬🇧 英国 | GBR #1'
-  type: vless
-  server: 151.101.36.235
-  port: 443
-  alpn:
-  - h3
-  client-fingerprint: chrome
-  network: xhttp
-  servername: accounts.fastly.com
-  tls: true
-  udp: true
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  xhttp-opts:
-    host: ovd13.global.ssl.fastly.net
-    mode: auto
-    no-grpc-header: true
-    path: /
-    x-padding-bytes: 100-1000
-- name: 20|g1.3s|4.2M|★🇸🇪 瑞典 | SWE
-  type: vless
-  server: 94.183.234.245
-  port: 443
-  uuid: 5de0c218-0138-45d8-94d2-c2c3f37a1a6d
+  uuid: 3a7849e7-8ef6-492f-860d-54dd6aae400a
   tls: true
   flow: xtls-rprx-vision
   reality-opts:
-    public-key: tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc
-    short-id: 7f1e29593aa94ad1
-  servername: www.bing.com
-  client-fingerprint: qq
+    public-key: mEo4kHPpRns7efJfVW1G-gDEsPag0jELFQK-HIwrvjY
+    short-id: 6562cf617728186e
+  servername: nl3.soshelper.space
+  client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 21|g1.4s|4.7M|★巴西 004
+- name: 15|g1.5s|3.1M|★🇳🇱NL_9|2.2MB/s
+  type: vless
+  server: mortreze45678-production.up.railway.app
+  port: 443
+  uuid: 12df41f8-c668-4f92-b56a-8e1ea4193b83
+  tls: true
+  udp: true
+  sni: mortreze45678-production.up.railway.app
+  servername: mortreze45678-production.up.railway.app
+  client-fingerprint: chrome
+  network: ws
+  alpn:
+  - http/1.1
+  packet-encoding: xudp
+  ws-opts:
+    path: /api/JWVPy1
+    headers:
+      Host: mortreze45678-production.up.railway.app
+- name: 16|g1.5s|1.1M|★🇩🇪 德国 | DEU 3
+  type: vless
+  server: 178.214.125.1
+  port: 443
+  uuid: 3f3160a0-747d-4fed-bf3d-4d884bfa964d
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: ZxCwJxbsZWJYYCPzeWj7_fxJMVhwh4XGfpvjmEIQjHY
+    short-id: 6172ba9cffe9c22f
+  servername: conf.emaar.ru
+  client-fingerprint: edge
+  network: tcp
+  udp: true
+- name: 17|g1.8s|1.5M|★🇬🇧GB_6|2.1MB/s
+  type: vless
+  server: gb1.soshelper.space
+  port: 2053
+  uuid: 3a7849e7-8ef6-492f-860d-54dd6aae400a
+  tls: true
+  udp: true
+  sni: gb1.soshelper.space
+  servername: gb1.soshelper.space
+  client-fingerprint: firefox
+  network: xhttp
+  packet-encoding: xudp
+  ws-opts:
+    path: /
+    headers:
+      Host: gb1.soshelper.space
+  reality-opts:
+    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
+    short-id: e06e30590f288e0f
+- name: 18|g1.9s|3.0M|★俄罗斯 002
+  type: vless
+  server: earlytrain.net
+  port: 8443
+  network: xhttp
+  uuid: 37af0181-5598-4aad-a040-d926bcb65757
+  servername: earlytrain.net
+  tls: true
+  udp: true
+  client-fingerprint: firefox
+  xhttp-opts:
+    host: earlytrain.net
+    mode: auto
+    path: /api/v1/upload
+- name: 19|g2.3s|1.2M|★🇮🇹_IT_意大利_IPV4 (2)
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- name: 20|g2.3s|2.4M|★🇮🇹_IT_意大利_IPV4 (9)
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- name: 21|g2.5s|0.3M|★🇸🇨_塞舌尔 (2) [e635bacdaa27e862] [f3aeb7e708f4]
+  type: vless
+  server: 196.199.122.2
+  port: 443
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: 42426c882c5fcd41
+  servername: 7aa271t.es1.h1clayd.click
+  skip-cert-verify: true
+  sni: 7aa271t.es1.h1clayd.click
+  tls: true
+  udp: true
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  x-toolall-mihomo: true
+- name: 22|g2.6s|1.6M|★🇳🇱 荷兰 | NLD 2
+  type: vless
+  server: f0d7aft.nl13.h1clayd.click
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  reality-opts:
+    public-key: kkCGiCQCKnkozJR1KKCRNtmdBECmThCgI9VSv7iDcWI
+    short-id: 8956c57cb4c4f8d2
+  servername: f0d7aft.nl13.h1clayd.click
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 23|g3.0s|0.1M|★🇲🇾 马来西亚 | MYS
+  type: anytls
+  server: forwarded.frnhk.xyz
+  port: 2053
+  password: 047e0e0c-1843-4f16-9812-ec2cc94f7a99
+  skip-cert-verify: true
+  sni: my.gosthk.site
+  udp: true
+- name: 24|g3.1s|1.6M|★巴西 005
   type: vless
   server: 200.102.179.69
   port: 443
@@ -265,199 +305,179 @@ proxies:
     host: dmbdnpctq8hjxx.hat.onl
     mode: auto
     path: /hls/014373eq/seg
-- name: 22|g1.4s|5.6M|★🇹🇷TR_1|1005KB/s
-  type: trojan
-  server: sclass-b1.catcat321.com
-  port: 20028
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  udp: true
-  x-toolall-mihomo: true
-- name: 23|g1.4s|4.2M|★英国 007
+- name: 25|g3.2s|0.7M|★🇬🇧GB_5|1.0MB/s
   type: vless
-  server: 2.26.88.140
-  port: 4443
-  network: xhttp
-  uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  servername: lv3.nexfile.net
+  server: 94.183.179.64
+  port: 443
+  uuid: 6c8e3705-809e-4ca8-ae10-fe2ae2fa9859
   tls: true
   udp: true
-  client-fingerprint: chrome
-  xhttp-opts:
-    host: lv3.nexfile.net
-    path: /api/v1/sync/
-- name: 24|g1.5s|5.9M|★🇹🇷|土耳其-IEPL 01 [e3ba77a91d06]
-  type: trojan
-  server: sclass-b1.catcat321.com
-  port: 20027
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  udp: true
-  x-toolall-mihomo: true
-- name: 25|g1.6s|4.1M|★🇦🇪_阿拉伯联合酋长国 (2)
-  type: vless
-  server: msk10.gacvpn.site
-  port: 443
-  uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
+  sni: gb2.soshelper.space
+  servername: gb2.soshelper.space
   flow: xtls-rprx-vision
-  udp: true
-  tls: true
-  servername: nl3-edge.gacvpn.site
-  sni: nl3-edge.gacvpn.site
-  skip-cert-verify: true
-  client-fingerprint: edge
+  client-fingerprint: firefox
+  network: tcp
+  packet-encoding: xudp
   reality-opts:
-    public-key: Caj4X3VjnHfdRQzWLmjFCiG_CGw0scYYni6UxVfBs38
-    short-id: db6a4219fb
-- name: 26|g1.6s|2.1M|★🇳🇬|尼日利亚-IEPL 01 [919ade677791]
-  type: trojan
-  server: sclass-c2.catcat321.com
-  port: 20051
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  udp: true
-  x-toolall-mihomo: true
-- name: 27|g1.6s|0.4M|★🇸🇬 新加坡 | SGP 2
-  type: hysteria2
-  server: 165.154.193.165
-  port: 443
-  alpn:
-  - h3
-  auth: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt
-  down: 200
-  obfs: salamander
-  obfs-password: d7897b996af77eeecb7ac010361d74fb
-  password: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt
-  skip-cert-verify: true
-  sni: 165.154.193.165
-  udp: true
-  up: 100
-- name: '28|g1.9s|3.7M|★🇱🇻 拉脱维亚 | LVA #1'
+    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
+    short-id: e06e30590f288e0f
+- name: 26|g3.7s|0.9M|★4Mohsen-80e9eb5744 [3c052db8c8d9]
   type: vless
-  server: lv3.nexfile.net
-  port: 4443
+  server: 196.245.52.187
+  port: 443
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
+    short-id: ba2a3dce62b99092
+  servername: 04535dt.us8.h1clayd.click
+  tls: true
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  x-toolall-mihomo: true
+- name: 27|g4.2s|0.6M|★🇳🇱NL_10|2.0MB/s
+  type: vless
+  server: 201.8.64.254
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  udp: true
+  sni: 5d0319t.nl7.h1clayd.click
+  servername: 5d0319t.nl7.h1clayd.click
+  client-fingerprint: firefox
+  network: tcp
+  packet-encoding: xudp
+  reality-opts:
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+    short-id: 361d0dd59c70516f
+- name: 28|g5.6s|1.2M|★🇦🇱 AL_25
+  type: vless
+  server: 15b171g.nl7.h1clayd.click
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  reality-opts:
+    public-key: zbz--PMjcIC4Ggr3j-ibDf0fzXRTj0lM_HzjPJyMkVE
+    short-id: 50a749f0eccb628c
+  servername: 15b171g.nl7.h1clayd.click
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 5b79e8a94241
+  udp: true
+- name: 29|g9.6s|0.8M|★🇦🇱 AL_24
+  type: vless
+  server: 196.196.148.85
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  reality-opts:
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+    short-id: 361d0dd59c70516f
+  servername: 5d0319t.nl7.h1clayd.click
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- name: '30|g1.0s|0.4M|🇺🇸_US_美国_IPV4 (3) #2'
+  type: trojan
+  server: 23.106.44.14
+  port: 443
+  password: 600421cf-11d7-429f-a65b-c30397f1bc03
+  tls: true
+  servername: sj6.freeguard.org
+  sni: sj6.freeguard.org
+  skip-cert-verify: true
+- name: 31|g1.4s|3.2M|🇧🇬 保加利亚 | BGR
+  type: vless
+  server: 88.80.150.15
+  port: 443
+  uuid: 1d46250c-f015-439d-a7fd-c4d9e2a4c63d
+  tls: true
+  alpn:
+  - h2
+  servername: bg2.oncloudvpn.com
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc
+  udp: true
+- name: 32|g2.4s|0.3M|🇧🇾 BY_30
+  type: vless
+  server: 196.196.148.63
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  reality-opts:
+    public-key: dtO7khFLUkpFDQOtNzo4Th4hJKLoPSY2VtD_9k4Hgiw
+    short-id: 7b2b1a14a6e0630d
+  servername: fc82dfx.nl8.h1clayd.click
   client-fingerprint: chrome
   network: xhttp
-  servername: lv3.nexfile.net
-  tls: true
-  udp: true
-  uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
   xhttp-opts:
-    host: lv3.nexfile.net
+    path: /0616f2d729aa
+    host: fc82dfx.nl8.h1clayd.click
     mode: auto
-    path: /api/v1/sync/
-- name: 29|g1.9s|4.0M|★🇪🇸 西班牙 | ESP
+  udp: true
+- name: 33|g3.0s|1.5M|VIP3-🇭🇰香港|HK1|admin@优选 [e08d5e449276]
+  type: vless
+  server: hk1t.wawojk.dpdns.org
+  port: 443
+  client-fingerprint: chrome
+  network: ws
+  servername: hk1t.wawojk.dpdns.org
+  tls: true
+  uuid: 5d967efa-702c-4cde-9e79-29386c8012e5
+  ws-opts:
+    headers:
+      Host: hk1t.wawojk.dpdns.org
+    path: /hk1-ws-1f8915c8964a
+  x-toolall-mihomo: true
+- name: 34|g3.8s|0.4M|🇸🇨_塞舌尔 (3) [7029e78312aa949a] [44d86972cf1a]
   type: vless
   server: 196.196.149.80
   port: 443
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  tls: true
+  client-fingerprint: firefox
   flow: xtls-rprx-vision
   reality-opts:
     public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
     short-id: 42426c882c5fcd41
   servername: 7aa271t.es1.h1clayd.click
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 30|g2.0s|2.9M|★🇩🇪_DE_德国_IPV4
-  type: trojan
-  server: 191.44.112.170.sslip.io
-  port: 443
-  password: 46d221fa-e9b4-748c-4eae-019a88e42991
+  skip-cert-verify: true
+  sni: 7aa271t.es1.h1clayd.click
   tls: true
-  servername: orbylume.my.to
-  sni: orbylume.my.to
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /tvpn-trojan/bg
-    headers:
-      Host: orbylume.my.to
-- name: '31|g2.1s|3.1M|★🇩🇪_DE_德国_IPV4 #2'
-  type: trojan
-  server: 191.44.112.170
-  port: 443
-  password: 46d221fa-e9b4-748c-4eae-019a88e42991
-  tls: true
-  servername: orbylume.my.to
-  sni: orbylume.my.to
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /tvpn-trojan/bg
-    headers:
-      Host: orbylume.my.to
-- name: 32|g3.3s|0.2M|★中国 003
-  type: vless
-  server: jp.sofast.live
-  port: 52683
-  network: tcp
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-  tls: false
   udp: true
-  ws-opts:
-    headers:
-      Host: jp.sofast.live
-    path: /
-- name: 33|g1.3s|0.4M|🇭🇰 香港 | HKG 2
-  type: anytls
-  server: site.ddddd.site
-  port: 36031
-  password: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
-  sni: virtual.ubuntu24.com
-  skip-cert-verify: true
-- name: 34|g5.2s|0.4M|🇺🇸_美国 (103)
-  type: vless
-  server: 172.66.0.172
-  port: 2083
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  servername: wk1.f1w.de5.net
-  sni: wk1.f1w.de5.net
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: wk1.f1w.de5.net
-- name: 35|235ms|5.0M|vless-1853963040
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  x-toolall-mihomo: true
+- name: 35|232ms|0.1M|@meliproxyy [5deb6c23180f]
   type: vless
   server: edge.bookmai.com
   port: 443
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  network: raw
+  network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
   servername: mother-earth.fyi
   tls: true
-  udp: true
   uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-- name: 36|294ms|5.4M|CA 🇨🇦 | @Raydikalx | E20903
-  type: vmess
-  server: 104.18.42.163
+  x-toolall-mihomo: true
+- name: 36|715ms|2.7M|🇦🇱 AL_26
+  type: vless
+  server: 5d0319t.nl7.h1clayd.click
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  udp: true
-  alterId: 0
-  cipher: auto
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   tls: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: 37|297ms|5.0M|美国 744
+  reality-opts:
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+    short-id: 361d0dd59c70516f
+  servername: 5d0319t.nl7.h1clayd.click
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- name: 37|713ms|1.7M|美国 367
   type: vmess
-  server: 172.64.145.93
+  server: 172.67.190.164
   port: 443
   network: ws
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
@@ -469,27 +489,61 @@ proxies:
     headers:
       Host: guanwang.awsno.com
     path: /hls/cctv5phd.m3u8
-- name: 38|493ms|3.7M|US 🇺🇸 | @Raydikalx | 7DA3D8
+- name: 38|400ms|0.5M|🇹🇼 🇨🇳 台湾 | TWN 2
+  type: vless
+  server: 83.147.13.74
+  port: 8443
+  uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
+  tls: true
+  reality-opts:
+    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
+    short-id: 4ad2e4e660550e43
+  servername: github.githubassets.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 39|428ms|🇺🇸US-140.188.73.129-5775 [4cec6c79a30e]
+  type: ssr
+  server: ssr2.762988.xyz
+  port: 33336
+  cipher: chacha20-ietf
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  protocol-param: ''
+  x-toolall-mihomo: true
+- name: 40|580ms|0.4M|🇰🇿KZ_1|3.0MB/s
+  type: vless
+  server: 213.155.23.228
+  port: 443
+  uuid: c059d2b8-d7d6-4873-b5e8-2c5f6cd908bb
+  tls: true
+  udp: true
+  sni: static.savesafe.kz
+  servername: static.savesafe.kz
+  client-fingerprint: firefox
+  network: xhttp
+  packet-encoding: xudp
+  reality-opts:
+    public-key: tHojxb7q7TpXTh2YebrSpAZ2a1_N8GUh1L-pWnSR_RE
+    short-id: f3ae2acc13964946
+- name: 41|766ms|0.3M|4Jadi-de0eefd7fa [275e588f890b]
   type: vmess
   server: 188.114.99.137
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  udp: true
   alterId: 0
   cipher: auto
-  tls: true
-  servername: guanwang.awsno.com
+  client-fingerprint: chrome
   network: ws
+  servername: guanwang.awsno.com
+  tls: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   ws-opts:
-    path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
-- name: 39|537ms|🇯🇵[www.v2nodes.com] ss-JP-1599...
-  type: ss
-  server: 154.36.158.197
-  port: 8388
-  cipher: aes-256-gcm
-  password: BeaUf9c0AEWH40Pu
+    path: /hls/cctv5phd.m3u8
+  x-toolall-mihomo: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -497,45 +551,47 @@ proxy-groups:
   - ♻️ 自动选择
   - 🔯 故障转移
   - DIRECT
-  - 01|g0.7s|1.9M|★荷兰 018
-  - 02|g0.9s|4.5M|★🇮🇹_IT_意大利_IPV4 (3)
-  - 03|g0.9s|4.3M|★🇮🇹_IT_意大利_IPV4 (10)
-  - 04|g0.9s|4.3M|★🇮🇹_IT_意大利_IPV4 (5)
-  - 05|g0.9s|4.5M|★🇮🇹_IT_意大利_IPV4 (9)
-  - 06|g0.9s|4.6M|★🇮🇹_IT_意大利_IPV4
-  - 07|g0.9s|4.3M|★🇮🇹_IT_意大利_IPV4 (4)
-  - 08|g0.9s|4.5M|★🇮🇹_IT_意大利_IPV4 (2)
-  - 09|g0.9s|4.0M|★🇮🇹_IT_意大利_IPV4 (8)
-  - 10|g1.0s|3.8M|★🇮🇹_IT_意大利_IPV4 (7)
-  - 11|g1.0s|4.9M|★🇮🇹_IT_意大利_IPV4 (6)
-  - 12|g1.1s|6.4M|★🇳🇱 荷兰 | NLD 5
-  - 13|g1.1s|2.7M|★🆔soskeynet 🔒 VL-TCP-N/A 🇷🇺 RU 140ms
-  - 14|g1.2s|5.0M|★德国 001
-  - 15|g1.2s|4.7M|★瑞士 006
-  - 16|g1.2s|0.6M|★🆔ar14n24b 🔒 VL-TCP-N/A ❔ XX 187ms
-  - 17|g1.2s|5.7M|★🇳🇱NL-109.104.153.43-0219 [ad12022f0033]
-  - '18|g1.2s|2.9M|★🇫🇷 法国 | FRA #3'
-  - '19|g1.2s|0.7M|★🇬🇧 英国 | GBR #1'
-  - 20|g1.3s|4.2M|★🇸🇪 瑞典 | SWE
-  - 21|g1.4s|4.7M|★巴西 004
-  - 22|g1.4s|5.6M|★🇹🇷TR_1|1005KB/s
-  - 23|g1.4s|4.2M|★英国 007
-  - 24|g1.5s|5.9M|★🇹🇷|土耳其-IEPL 01 [e3ba77a91d06]
-  - 25|g1.6s|4.1M|★🇦🇪_阿拉伯联合酋长国 (2)
-  - 26|g1.6s|2.1M|★🇳🇬|尼日利亚-IEPL 01 [919ade677791]
-  - 27|g1.6s|0.4M|★🇸🇬 新加坡 | SGP 2
-  - '28|g1.9s|3.7M|★🇱🇻 拉脱维亚 | LVA #1'
-  - 29|g1.9s|4.0M|★🇪🇸 西班牙 | ESP
-  - 30|g2.0s|2.9M|★🇩🇪_DE_德国_IPV4
-  - '31|g2.1s|3.1M|★🇩🇪_DE_德国_IPV4 #2'
-  - 32|g3.3s|0.2M|★中国 003
-  - 33|g1.3s|0.4M|🇭🇰 香港 | HKG 2
-  - 34|g5.2s|0.4M|🇺🇸_美国 (103)
-  - 35|235ms|5.0M|vless-1853963040
-  - 36|294ms|5.4M|CA 🇨🇦 | @Raydikalx | E20903
-  - 37|297ms|5.0M|美国 744
-  - 38|493ms|3.7M|US 🇺🇸 | @Raydikalx | 7DA3D8
-  - 39|537ms|🇯🇵[www.v2nodes.com] ss-JP-1599...
+  - 01|g0.4s|10.8M|★🇳🇱荷兰 广播IP 25.96MB/s 566 linuxdo@onimaii [6aec8a3d9a64]
+  - 02|g0.8s|0.4M|★Oracle-Micro [ca9a7046eafe]
+  - 03|g0.9s|0.5M|★🇮🇹_IT_意大利_IPV4 (3)
+  - 04|g0.9s|1.4M|★🇮🇹_IT_意大利_IPV4
+  - '05|g0.9s|2.3M|★🇮🇹 意大利 | ITA #1'
+  - 06|g0.9s|2.0M|★🇮🇹_IT_意大利_IPV4 (4)
+  - 07|g1.0s|1.3M|★🇮🇹_IT_意大利_IPV4 (8)
+  - 08|g1.0s|0.8M|★🇮🇹_IT_意大利_IPV4 (7)
+  - 09|g1.0s|1.6M|★🇮🇹_IT_意大利_IPV4 (6)
+  - 10|g1.2s|2.2M|★🇺🇸 美国 | USA 5
+  - 11|g1.3s|1.5M|★🇳🇱 荷兰 | NLD 7
+  - 12|g1.4s|1.6M|★🇪🇸 西班牙 | ESP
+  - 13|g1.4s|1.8M|★🇮🇹_IT_意大利_IPV4 (5)
+  - 14|g1.4s|0.5M|★🇳🇱 荷兰 | NLD 4
+  - 15|g1.5s|3.1M|★🇳🇱NL_9|2.2MB/s
+  - 16|g1.5s|1.1M|★🇩🇪 德国 | DEU 3
+  - 17|g1.8s|1.5M|★🇬🇧GB_6|2.1MB/s
+  - 18|g1.9s|3.0M|★俄罗斯 002
+  - 19|g2.3s|1.2M|★🇮🇹_IT_意大利_IPV4 (2)
+  - 20|g2.3s|2.4M|★🇮🇹_IT_意大利_IPV4 (9)
+  - 21|g2.5s|0.3M|★🇸🇨_塞舌尔 (2) [e635bacdaa27e862] [f3aeb7e708f4]
+  - 22|g2.6s|1.6M|★🇳🇱 荷兰 | NLD 2
+  - 23|g3.0s|0.1M|★🇲🇾 马来西亚 | MYS
+  - 24|g3.1s|1.6M|★巴西 005
+  - 25|g3.2s|0.7M|★🇬🇧GB_5|1.0MB/s
+  - 26|g3.7s|0.9M|★4Mohsen-80e9eb5744 [3c052db8c8d9]
+  - 27|g4.2s|0.6M|★🇳🇱NL_10|2.0MB/s
+  - 28|g5.6s|1.2M|★🇦🇱 AL_25
+  - 29|g9.6s|0.8M|★🇦🇱 AL_24
+  - '30|g1.0s|0.4M|🇺🇸_US_美国_IPV4 (3) #2'
+  - 31|g1.4s|3.2M|🇧🇬 保加利亚 | BGR
+  - 32|g2.4s|0.3M|🇧🇾 BY_30
+  - 33|g3.0s|1.5M|VIP3-🇭🇰香港|HK1|admin@优选 [e08d5e449276]
+  - 34|g3.8s|0.4M|🇸🇨_塞舌尔 (3) [7029e78312aa949a] [44d86972cf1a]
+  - 35|232ms|0.1M|@meliproxyy [5deb6c23180f]
+  - 36|715ms|2.7M|🇦🇱 AL_26
+  - 37|713ms|1.7M|美国 367
+  - 38|400ms|0.5M|🇹🇼 🇨🇳 台湾 | TWN 2
+  - 39|428ms|🇺🇸US-140.188.73.129-5775 [4cec6c79a30e]
+  - 40|580ms|0.4M|🇰🇿KZ_1|3.0MB/s
+  - 41|766ms|0.3M|4Jadi-de0eefd7fa [275e588f890b]
 - name: ♻️ 自动选择
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -543,45 +599,47 @@ proxy-groups:
   tolerance: 50
   lazy: true
   proxies: &id001
-  - 01|g0.7s|1.9M|★荷兰 018
-  - 02|g0.9s|4.5M|★🇮🇹_IT_意大利_IPV4 (3)
-  - 03|g0.9s|4.3M|★🇮🇹_IT_意大利_IPV4 (10)
-  - 04|g0.9s|4.3M|★🇮🇹_IT_意大利_IPV4 (5)
-  - 05|g0.9s|4.5M|★🇮🇹_IT_意大利_IPV4 (9)
-  - 06|g0.9s|4.6M|★🇮🇹_IT_意大利_IPV4
-  - 07|g0.9s|4.3M|★🇮🇹_IT_意大利_IPV4 (4)
-  - 08|g0.9s|4.5M|★🇮🇹_IT_意大利_IPV4 (2)
-  - 09|g0.9s|4.0M|★🇮🇹_IT_意大利_IPV4 (8)
-  - 10|g1.0s|3.8M|★🇮🇹_IT_意大利_IPV4 (7)
-  - 11|g1.0s|4.9M|★🇮🇹_IT_意大利_IPV4 (6)
-  - 12|g1.1s|6.4M|★🇳🇱 荷兰 | NLD 5
-  - 13|g1.1s|2.7M|★🆔soskeynet 🔒 VL-TCP-N/A 🇷🇺 RU 140ms
-  - 14|g1.2s|5.0M|★德国 001
-  - 15|g1.2s|4.7M|★瑞士 006
-  - 16|g1.2s|0.6M|★🆔ar14n24b 🔒 VL-TCP-N/A ❔ XX 187ms
-  - 17|g1.2s|5.7M|★🇳🇱NL-109.104.153.43-0219 [ad12022f0033]
-  - '18|g1.2s|2.9M|★🇫🇷 法国 | FRA #3'
-  - '19|g1.2s|0.7M|★🇬🇧 英国 | GBR #1'
-  - 20|g1.3s|4.2M|★🇸🇪 瑞典 | SWE
-  - 21|g1.4s|4.7M|★巴西 004
-  - 22|g1.4s|5.6M|★🇹🇷TR_1|1005KB/s
-  - 23|g1.4s|4.2M|★英国 007
-  - 24|g1.5s|5.9M|★🇹🇷|土耳其-IEPL 01 [e3ba77a91d06]
-  - 25|g1.6s|4.1M|★🇦🇪_阿拉伯联合酋长国 (2)
-  - 26|g1.6s|2.1M|★🇳🇬|尼日利亚-IEPL 01 [919ade677791]
-  - 27|g1.6s|0.4M|★🇸🇬 新加坡 | SGP 2
-  - '28|g1.9s|3.7M|★🇱🇻 拉脱维亚 | LVA #1'
-  - 29|g1.9s|4.0M|★🇪🇸 西班牙 | ESP
-  - 30|g2.0s|2.9M|★🇩🇪_DE_德国_IPV4
-  - '31|g2.1s|3.1M|★🇩🇪_DE_德国_IPV4 #2'
-  - 32|g3.3s|0.2M|★中国 003
-  - 33|g1.3s|0.4M|🇭🇰 香港 | HKG 2
-  - 34|g5.2s|0.4M|🇺🇸_美国 (103)
-  - 35|235ms|5.0M|vless-1853963040
-  - 36|294ms|5.4M|CA 🇨🇦 | @Raydikalx | E20903
-  - 37|297ms|5.0M|美国 744
-  - 38|493ms|3.7M|US 🇺🇸 | @Raydikalx | 7DA3D8
-  - 39|537ms|🇯🇵[www.v2nodes.com] ss-JP-1599...
+  - 01|g0.4s|10.8M|★🇳🇱荷兰 广播IP 25.96MB/s 566 linuxdo@onimaii [6aec8a3d9a64]
+  - 02|g0.8s|0.4M|★Oracle-Micro [ca9a7046eafe]
+  - 03|g0.9s|0.5M|★🇮🇹_IT_意大利_IPV4 (3)
+  - 04|g0.9s|1.4M|★🇮🇹_IT_意大利_IPV4
+  - '05|g0.9s|2.3M|★🇮🇹 意大利 | ITA #1'
+  - 06|g0.9s|2.0M|★🇮🇹_IT_意大利_IPV4 (4)
+  - 07|g1.0s|1.3M|★🇮🇹_IT_意大利_IPV4 (8)
+  - 08|g1.0s|0.8M|★🇮🇹_IT_意大利_IPV4 (7)
+  - 09|g1.0s|1.6M|★🇮🇹_IT_意大利_IPV4 (6)
+  - 10|g1.2s|2.2M|★🇺🇸 美国 | USA 5
+  - 11|g1.3s|1.5M|★🇳🇱 荷兰 | NLD 7
+  - 12|g1.4s|1.6M|★🇪🇸 西班牙 | ESP
+  - 13|g1.4s|1.8M|★🇮🇹_IT_意大利_IPV4 (5)
+  - 14|g1.4s|0.5M|★🇳🇱 荷兰 | NLD 4
+  - 15|g1.5s|3.1M|★🇳🇱NL_9|2.2MB/s
+  - 16|g1.5s|1.1M|★🇩🇪 德国 | DEU 3
+  - 17|g1.8s|1.5M|★🇬🇧GB_6|2.1MB/s
+  - 18|g1.9s|3.0M|★俄罗斯 002
+  - 19|g2.3s|1.2M|★🇮🇹_IT_意大利_IPV4 (2)
+  - 20|g2.3s|2.4M|★🇮🇹_IT_意大利_IPV4 (9)
+  - 21|g2.5s|0.3M|★🇸🇨_塞舌尔 (2) [e635bacdaa27e862] [f3aeb7e708f4]
+  - 22|g2.6s|1.6M|★🇳🇱 荷兰 | NLD 2
+  - 23|g3.0s|0.1M|★🇲🇾 马来西亚 | MYS
+  - 24|g3.1s|1.6M|★巴西 005
+  - 25|g3.2s|0.7M|★🇬🇧GB_5|1.0MB/s
+  - 26|g3.7s|0.9M|★4Mohsen-80e9eb5744 [3c052db8c8d9]
+  - 27|g4.2s|0.6M|★🇳🇱NL_10|2.0MB/s
+  - 28|g5.6s|1.2M|★🇦🇱 AL_25
+  - 29|g9.6s|0.8M|★🇦🇱 AL_24
+  - '30|g1.0s|0.4M|🇺🇸_US_美国_IPV4 (3) #2'
+  - 31|g1.4s|3.2M|🇧🇬 保加利亚 | BGR
+  - 32|g2.4s|0.3M|🇧🇾 BY_30
+  - 33|g3.0s|1.5M|VIP3-🇭🇰香港|HK1|admin@优选 [e08d5e449276]
+  - 34|g3.8s|0.4M|🇸🇨_塞舌尔 (3) [7029e78312aa949a] [44d86972cf1a]
+  - 35|232ms|0.1M|@meliproxyy [5deb6c23180f]
+  - 36|715ms|2.7M|🇦🇱 AL_26
+  - 37|713ms|1.7M|美国 367
+  - 38|400ms|0.5M|🇹🇼 🇨🇳 台湾 | TWN 2
+  - 39|428ms|🇺🇸US-140.188.73.129-5775 [4cec6c79a30e]
+  - 40|580ms|0.4M|🇰🇿KZ_1|3.0MB/s
+  - 41|766ms|0.3M|4Jadi-de0eefd7fa [275e588f890b]
 - name: 🔯 故障转移
   type: fallback
   url: https://www.gstatic.com/generate_204
@@ -594,9 +652,8 @@ proxy-groups:
   tolerance: 100
   lazy: true
   proxies:
-  - 27|g1.6s|0.4M|★🇸🇬 新加坡 | SGP 2
-  - 33|g1.3s|0.4M|🇭🇰 香港 | HKG 2
-  - 39|537ms|🇯🇵[www.v2nodes.com] ss-JP-1599...
+  - 33|g3.0s|1.5M|VIP3-🇭🇰香港|HK1|admin@优选 [e08d5e449276]
+  - 38|400ms|0.5M|🇹🇼 🇨🇳 台湾 | TWN 2
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -610,38 +667,35 @@ proxy-groups:
   tolerance: 100
   lazy: true
   proxies:
-  - 01|g0.7s|1.9M|★荷兰 018
-  - 02|g0.9s|4.5M|★🇮🇹_IT_意大利_IPV4 (3)
-  - 03|g0.9s|4.3M|★🇮🇹_IT_意大利_IPV4 (10)
-  - 04|g0.9s|4.3M|★🇮🇹_IT_意大利_IPV4 (5)
-  - 05|g0.9s|4.5M|★🇮🇹_IT_意大利_IPV4 (9)
-  - 06|g0.9s|4.6M|★🇮🇹_IT_意大利_IPV4
-  - 07|g0.9s|4.3M|★🇮🇹_IT_意大利_IPV4 (4)
-  - 08|g0.9s|4.5M|★🇮🇹_IT_意大利_IPV4 (2)
-  - 09|g0.9s|4.0M|★🇮🇹_IT_意大利_IPV4 (8)
-  - 10|g1.0s|3.8M|★🇮🇹_IT_意大利_IPV4 (7)
-  - 11|g1.0s|4.9M|★🇮🇹_IT_意大利_IPV4 (6)
-  - 12|g1.1s|6.4M|★🇳🇱 荷兰 | NLD 5
-  - 13|g1.1s|2.7M|★🆔soskeynet 🔒 VL-TCP-N/A 🇷🇺 RU 140ms
-  - 14|g1.2s|5.0M|★德国 001
-  - 15|g1.2s|4.7M|★瑞士 006
-  - 16|g1.2s|0.6M|★🆔ar14n24b 🔒 VL-TCP-N/A ❔ XX 187ms
-  - 17|g1.2s|5.7M|★🇳🇱NL-109.104.153.43-0219 [ad12022f0033]
-  - '18|g1.2s|2.9M|★🇫🇷 法国 | FRA #3'
-  - '19|g1.2s|0.7M|★🇬🇧 英国 | GBR #1'
-  - 20|g1.3s|4.2M|★🇸🇪 瑞典 | SWE
-  - 21|g1.4s|4.7M|★巴西 004
-  - 22|g1.4s|5.6M|★🇹🇷TR_1|1005KB/s
-  - 23|g1.4s|4.2M|★英国 007
-  - 24|g1.5s|5.9M|★🇹🇷|土耳其-IEPL 01 [e3ba77a91d06]
-  - 25|g1.6s|4.1M|★🇦🇪_阿拉伯联合酋长国 (2)
-  - 26|g1.6s|2.1M|★🇳🇬|尼日利亚-IEPL 01 [919ade677791]
-  - 27|g1.6s|0.4M|★🇸🇬 新加坡 | SGP 2
-  - '28|g1.9s|3.7M|★🇱🇻 拉脱维亚 | LVA #1'
-  - 29|g1.9s|4.0M|★🇪🇸 西班牙 | ESP
-  - 30|g2.0s|2.9M|★🇩🇪_DE_德国_IPV4
-  - '31|g2.1s|3.1M|★🇩🇪_DE_德国_IPV4 #2'
-  - 32|g3.3s|0.2M|★中国 003
+  - 01|g0.4s|10.8M|★🇳🇱荷兰 广播IP 25.96MB/s 566 linuxdo@onimaii [6aec8a3d9a64]
+  - 02|g0.8s|0.4M|★Oracle-Micro [ca9a7046eafe]
+  - 03|g0.9s|0.5M|★🇮🇹_IT_意大利_IPV4 (3)
+  - 04|g0.9s|1.4M|★🇮🇹_IT_意大利_IPV4
+  - '05|g0.9s|2.3M|★🇮🇹 意大利 | ITA #1'
+  - 06|g0.9s|2.0M|★🇮🇹_IT_意大利_IPV4 (4)
+  - 07|g1.0s|1.3M|★🇮🇹_IT_意大利_IPV4 (8)
+  - 08|g1.0s|0.8M|★🇮🇹_IT_意大利_IPV4 (7)
+  - 09|g1.0s|1.6M|★🇮🇹_IT_意大利_IPV4 (6)
+  - 10|g1.2s|2.2M|★🇺🇸 美国 | USA 5
+  - 11|g1.3s|1.5M|★🇳🇱 荷兰 | NLD 7
+  - 12|g1.4s|1.6M|★🇪🇸 西班牙 | ESP
+  - 13|g1.4s|1.8M|★🇮🇹_IT_意大利_IPV4 (5)
+  - 14|g1.4s|0.5M|★🇳🇱 荷兰 | NLD 4
+  - 15|g1.5s|3.1M|★🇳🇱NL_9|2.2MB/s
+  - 16|g1.5s|1.1M|★🇩🇪 德国 | DEU 3
+  - 17|g1.8s|1.5M|★🇬🇧GB_6|2.1MB/s
+  - 18|g1.9s|3.0M|★俄罗斯 002
+  - 19|g2.3s|1.2M|★🇮🇹_IT_意大利_IPV4 (2)
+  - 20|g2.3s|2.4M|★🇮🇹_IT_意大利_IPV4 (9)
+  - 21|g2.5s|0.3M|★🇸🇨_塞舌尔 (2) [e635bacdaa27e862] [f3aeb7e708f4]
+  - 22|g2.6s|1.6M|★🇳🇱 荷兰 | NLD 2
+  - 23|g3.0s|0.1M|★🇲🇾 马来西亚 | MYS
+  - 24|g3.1s|1.6M|★巴西 005
+  - 25|g3.2s|0.7M|★🇬🇧GB_5|1.0MB/s
+  - 26|g3.7s|0.9M|★4Mohsen-80e9eb5744 [3c052db8c8d9]
+  - 27|g4.2s|0.6M|★🇳🇱NL_10|2.0MB/s
+  - 28|g5.6s|1.2M|★🇦🇱 AL_25
+  - 29|g9.6s|0.8M|★🇦🇱 AL_24
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
