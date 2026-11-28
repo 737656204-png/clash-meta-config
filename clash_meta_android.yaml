@@ -1,8 +1,8 @@
 # ============================================================
 # Clash Meta for Android 手机配置（自动生成，请勿手工编辑）
-# 生成时间: 2026-11-24 13:29:17
+# 生成时间: 2026-11-28 10:29:14
 # 节点来源: 27 个公开订阅源聚合 + 本机实测存活筛选
-# 候选池: 14199 个 -> 实测可用: 36 个 -> 本配置收录: 34 个
+# 候选池: 14317 个 -> 实测可用: 43 个 -> 本配置收录: 41 个
 # 延迟为生成时实测值，仅供参考；Verge 内可重新测速
 # ============================================================
 
@@ -32,14 +32,13 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
 proxies:
-- name: 01|g0.8s|0.8M|★🇹🇼 🇨🇳 台湾 | TWN 2
-  type: anytls
-  server: mfjh645drfj1dr6j5.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-- name: 02|g0.9s|0.9M|★🇹🇼_TW_台湾_IPV4
+- name: 01|g0.5s|0.6M|★🇭🇰[www.v2nodes.com] ss-HK-1624...
+  type: ss
+  server: waic.pro.main.sys-metric-report.com
+  port: 28014
+  cipher: chacha20-ietf-poly1305
+  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
+- name: 02|g0.6s|7.4M|★🇹🇼_TW_台湾_IPV4
   type: anytls
   server: rtifgjdr.df6h451rh.xin
   port: 443
@@ -48,144 +47,73 @@ proxies:
   servername: docs.microsoft.com
   sni: docs.microsoft.com
   skip-cert-verify: true
-- name: '03|g0.9s|0.8M|★🇮🇹 意大利 | ITA #7'
-  type: ss
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 04|g0.9s|0.3M|★🇮🇹IT_9|2.7MB/s
-  type: ss
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '05|g0.9s|0.3M|★🇮🇹 意大利 | ITA #2'
-  type: ss
-  server: 202.50.253.27
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '06|g0.9s|0.3M|★🇮🇹 意大利 | ITA #3'
-  type: ss
-  server: 202.50.253.63
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '07|g1.0s|0.3M|★🇮🇹 意大利 | ITA #5'
-  type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '08|g1.0s|1.4M|★🇮🇹 意大利 | ITA #4'
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 09|g1.2s|0.7M|★🇬🇧 英国 | GBR 7
-  type: vless
-  server: 196.196.208.22
-  port: 443
-  uuid: cae99415-10a6-4317-81bd-19a4586b5d76
-  tls: true
-  reality-opts:
-    public-key: _yJGJ5q-8IxTuWFcoy5wpKKYtk9p9q4lQ6svfXC1IUU
-    short-id: 621290c77645b731
-  servername: 9303d6x.fi-p1b.h1clayd.click
-  client-fingerprint: firefox
-  network: xhttp
-  xhttp-opts:
-    path: /f57a81c99fea
-    host: 9303d6x.fi-p1b.h1clayd.click
-    mode: auto
-  udp: true
-- name: 10|g1.3s|0.9M|★🇮🇹IT_10|3.4MB/s
-  type: ss
-  server: 202.50.253.90
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '11|g1.7s|0.5M|★🇮🇹 意大利 | ITA #1'
+- name: 03|g0.9s|3.1M|★🇮🇹IT_4|2.1MB/s
   type: ss
   server: 202.50.253.54
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '12|g1.9s|0.6M|★🇮🇹 意大利 | ITA #8'
+- name: 04|g0.9s|3.8M|★🇮🇹IT_7|3.5MB/s
   type: ss
   server: 202.50.253.81
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '13|g2.1s|0.5M|★🇮🇹 意大利 | ITA #6'
+- name: 05|g0.9s|2.7M|★🇮🇹_IT_意大利_IPV4 (3)
+  type: ss
+  server: 202.50.253.90
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- name: '06|g0.9s|2.1M|★🇮🇹[www.v2nodes.com] ss-IT-1619... #4'
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 07|g0.9s|2.6M|★🇮🇹IT_3|2.2MB/s
   type: ss
   server: 202.50.253.45
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 14|g2.4s|0.9M|★🇹🇼TW_3|1.6MB/s
-  type: anytls
-  server: a54ge.df6h451rh.xin
-  port: 443
-  client-fingerprint: chrome
-  password: 0324fbc29561
-  skip-cert-verify: true
-  sni: docs.microsoft.com
-  udp: true
-- name: 15|g2.8s|0.3M|★🇭🇰HK_2|1.2MB/s
-  type: anytls
-  server: 5641sdds.df6h451rh.xin
-  port: 443
-  client-fingerprint: chrome
-  password: 0324fbc29561
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  udp: true
-- name: 16|g2.9s|★U⚪🇳🇱ukn[🤖💬📺🎵]_dokng.com_ad12022f
-  type: ssr
-  server: 109.104.153.43
-  port: 33336
-  cipher: chacha20-ietf
-  obfs: tls1.2_ticket_auth
-  obfs-param: ''
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  protocol-param: ''
-  x-toolall-mihomo: true
-- name: '17|g3.2s|0.5M|★🇩🇪 德国 | DEU #2'
+- name: 08|g0.9s|2.0M|★🇮🇹IT_6|2.7MB/s
   type: ss
-  server: 47.85.227.36
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 18|g3.6s|0.1M|★🇳🇱 荷兰 | NLD
-  type: vless
-  server: 193.111.248.54
+- name: 09|g1.0s|1.5M|★🇭🇰_HK_香港_IPV4
+  type: anytls
+  server: ibsdsf.df6h451rh.xin
   port: 443
-  uuid: a8e5585a-6020-4649-a364-c1ebf3a40548
+  password: 2902c46c8493
   tls: true
+  servername: docs.microsoft.com
+  sni: docs.microsoft.com
+  skip-cert-verify: true
+- name: 10|g1.3s|0.2M|★🇳🇱_荷兰 (24)
+  type: vless
+  server: 13.141.36.63
+  port: 443
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
   flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 0KDql59THS-DXg30wMR0QGgFB6rXARDhr8WoWyfVA2M
-    short-id: 6f0091ebe3029ebb
-  servername: tagderdeutscheneinheit.de
-  client-fingerprint: firefox
-  network: tcp
   udp: true
-- name: 19|g4.9s|0.2M|★🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4
+  tls: true
+  servername: 4935e4t.de25.h1clayd.click
+  sni: 4935e4t.de25.h1clayd.click
+  skip-cert-verify: true
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
+    short-id: 6976d670818644cc
+- name: 11|g1.6s|0.7M|★🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4
   type: anytls
   server: sdf65h46wr.df6h451rh.xin
   port: 443
@@ -194,76 +122,121 @@ proxies:
   servername: images.ctfassets.net
   sni: images.ctfassets.net
   skip-cert-verify: true
-- name: '20|g5.3s|0.6M|★🇩🇪 德国 | DEU #6'
-  type: ss
-  server: 47.85.238.210
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
-  udp: true
-- name: 21|g5.9s|0.1M|★C🟠🇺🇸hos[🤖💬🔮🧩]_dokng.com_379449c0
+- name: 12|g1.8s|0.0M|★伊朗 001
   type: vless
-  server: 162.35.101.177
+  server: ns2.irts.lol
   port: 443
-  client-fingerprint: edge
-  grpc-opts:
-    grpc-service-name: 99f2107b03f8
-  network: grpc
-  packet-encoding: xudp
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: bd8f712209a9c283
-  servername: 0592efg.us8.h1clayd.click
-  tls: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- name: 22|g7.6s|0.1M|★C🟠🇺🇸hos[🤖💬🔮📺]_dokng.com_e49a43e6
-  type: vless
-  server: 153.56.230.6
-  port: 443
-  client-fingerprint: edge
-  grpc-opts:
-    grpc-service-name: 99f2107b03f8
-  network: grpc
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: bd8f712209a9c283
-  servername: 0592efg.us8.h1clayd.click
-  tls: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- name: 23|g1.5s|0.4M|🇬🇧 英国 | GBR 5
-  type: hysteria2
-  server: 136.148.83.69
-  port: 443
-  password: 87bb2ac4-b7a1-0001-b11d-2107709ea6cb
-  auth: 87bb2ac4-b7a1-0001-b11d-2107709ea6cb
-  sni: szqbx-ru-77dc.my-fade.cloud
-  skip-cert-verify: true
-  udp: true
-- name: '24|g2.6s|0.1M|🇬🇧 英国 | GBR #1'
-  type: vless
-  server: 136.148.83.69
-  port: 443
-  client-fingerprint: qq
   network: tcp
-  servername: szqbx-ru-77dc.my-fade.cloud
+  uuid: ff1906a5-a446-44e4-8e72-4e2d61775fa0
+  servername: ns2.irts.lol
   tls: true
   udp: true
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ns2.irts.lol
+    path: /
+- name: 13|g1.9s|1.1M|★ProxyPool | 🇭🇰 香港 | HKG
+  type: anytls
+  server: 5641sdds.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  sni: images.ctfassets.net
+  skip-cert-verify: true
+- name: '14|g2.0s|1.3M|★EPODONIOS #2381'
+  type: vless
+  server: 167.172.165.106
+  port: 2083
+  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
+  udp: true
+  tls: true
+  servername: edge.yzkvm.top
+  client-fingerprint: chrome
+  network: ws
   ws-opts:
     path: /
-- name: 25|g2.7s|0.3M|🇷🇺_RU_俄罗斯_IPV4
+    headers:
+      Host: edge.yzkvm.top
+- name: 15|g2.5s|1.3M|★🆔ar14n24b 🔒 VL-GRPC- ❔ XX 400ms
   type: vless
-  server: 136.148.83.69
+  server: 195.58.46.231
   port: 443
-  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
+  uuid: bbb945a6-7d16-4099-b802-d3a7ccebd3ca
+  udp: true
   tls: true
-  servername: szqbx-ru-77dc.my-fade.cloud
-  sni: szqbx-ru-77dc.my-fade.cloud
+  reality-opts:
+    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
+    short-id: b8abb26d3cfadcfb
+  servername: node43.lmdscdn.ru
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: livestreamcontent
+- name: 16|g3.2s|0.5M|★🇸🇨_塞舌尔 (7)
+  type: vless
+  server: 196.196.148.177
+  port: 443
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: 4935e4t.de25.h1clayd.click
+  sni: 4935e4t.de25.h1clayd.click
   skip-cert-verify: true
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
+    short-id: 6976d670818644cc
+- name: 17|g4.5s|0.1M|★爱沙尼亚 V2CROSS.COM
+  type: vless
+  server: 196.196.148.76
+  port: 443
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: 8d0d0679f42ffd98
+  servername: 8a2e72t.nl20.h1clayd.shop
+  client-fingerprint: firefox
+  network: tcp
+  flow: xtls-rprx-vision
+- name: 18|g5.9s|0.5M|★C🟠🇺🇸hos[🤖💬🎮✈️]_dokng.com_c8aee3e4
+  type: hysteria2
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: https://xship.2fa.cat
+  skip-cert-verify: true
+  sni: xship.top
+  x-toolall-mihomo: true
+- name: 19|g2.0s|0.8M|🇹🇼_台湾
+  type: vless
+  server: 154.40.61.186
+  port: 8443
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  udp: true
+  tls: true
+  servername: senflarelink-node-wj1gsa.pages.dev
+  sni: senflarelink-node-wj1gsa.pages.dev
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /flow=fp=chrome
+    headers:
+      Host: senflarelink-node-wj1gsa.pages.dev
+- name: 20|g2.2s|0.5M|英国 003
+  type: vless
+  server: 136.148.83.70
+  port: 443
+  network: tcp
+  uuid: 00000000-0000-0001-0000-000000000000
+  servername: aszbk-ru-78dc.my-fade.cloud
+  tls: true
+  udp: true
   client-fingerprint: chrome
-- name: 26|g2.7s|0.7M|🇬🇧 英国 | GBR
+  ws-opts:
+    path: /
+- name: 21|g4.8s|0.1M|🇬🇧 英国 | GBR 2
   type: vless
   server: 136.148.83.71
   port: 443
@@ -273,18 +246,66 @@ proxies:
   client-fingerprint: qq
   network: tcp
   udp: true
-- name: 27|322ms|1.0M|D🔴🇺🇸hos[🤖🔮🧩✈️]_dokng.com_4cec6c79
-  type: ssr
-  server: ssr2.762988.xyz
-  port: 33336
-  cipher: chacha20-ietf
-  obfs: tls1.2_ticket_auth
-  obfs-param: ''
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  protocol-param: ''
-  x-toolall-mihomo: true
-- name: 28|501ms|0.5M|🇺🇸 机场推荐:dafei.de 美国 15_IPV4
+- name: 22|256ms|6.1M|CN 🇨🇳 | @Raydikalx | 0BE39C
+  type: vmess
+  server: 150.242.244.116
+  port: 2648
+  uuid: 5d746f1e-7028-455f-bb00-1806249a5941
+  udp: true
+  alterId: 0
+  cipher: auto
+  network: tcp
+- name: 23|297ms|3.0M|@DeltaKroneckerGithub_3021_IPV4
+  type: vmess
+  server: 172.64.145.93
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: 24|351ms|4.6M|CN 🇨🇳 | @Raydikalx | E7ABC3
+  type: vmess
+  server: 150.242.244.116
+  port: 2648
+  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
+  udp: true
+  alterId: 0
+  cipher: auto
+  servername: 150.242.244.116
+  network: tcp
+- name: 25|306ms|2.6M|CN 🇨🇳 | @Raydikalx | 10C07D
+  type: vmess
+  server: 150.242.244.116
+  port: 2648
+  uuid: aeff933f-0ae6-4465-85bf-12f1394f35af
+  udp: true
+  alterId: 0
+  cipher: auto
+  network: tcp
+- name: 26|401ms|2.8M|🇺🇸_US_美国_IPV4 (8)
+  type: vmess
+  server: 104.18.42.163
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: 27|471ms|3.5M|🇺🇸 机场推荐:dafei.de 美国 15_IPV4
   type: vmess
   server: 172.67.190.164
   port: 443
@@ -300,66 +321,142 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
-- name: 29|335ms|🇩🇪 293
-  type: trojan
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: 06cf12a7fab279375e55e2f0cfdef381
-  skip-cert-verify: true
+- name: 28|371ms|1.8M|🇪🇸 西班牙 | ESP 2
+  type: vless
+  server: api.ferrin.uk
+  port: 443
+  uuid: 7d1a74fd-8a38-4a29-863f-5da53a9e557e
+  tls: true
+  alpn:
+  - h2
+  servername: 7d1a74fd.ferrin.uk
+  client-fingerprint: safari
+  network: xhttp
+  xhttp-opts:
+    path: /es
+    host: api.ferrin.uk
+    mode: stream-one
   udp: true
-- name: 30|348ms|0.0M|🇩🇪_DE_德国_IPV4
+- name: 29|244ms|🇺🇸_美国 (3)
+  type: vless
+  server: 172.66.0.230
+  port: 2083
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  udp: true
+  tls: true
+  servername: helloapps.cc.cd
+  sni: helloapps.cc.cd
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: helloapps.cc.cd
+- name: 30|342ms|0.1M|🇩🇪 DE德国(mibei77.com 米贝节点分享) (3)(v2clash.blog 2026-11.23更新)
   type: ss
   server: 47.254.128.109
   port: 443
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   cipher: 2022-blake3-chacha20-poly1305
-  tls: false
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
+- name: 31|745ms|🇺🇸US_13|2.7MB/s
+  type: trojan
+  server: 66.163.114.166
+  port: 443
+  client-fingerprint: chrome
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  skip-cert-verify: true
+  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
+  udp: true
+- name: 32|804ms|trojan-1929965354
+  type: trojan
+  server: 66.163.114.45
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   skip-cert-verify: false
-- name: 31|817ms|0.2M|美国 750
-  type: vmess
-  server: 104.18.42.163
+  sni: cdn.findconnectwithemployersandbuildprofessionalnetwork.com
+  udp: true
+- name: 33|861ms|trojan-1935805071
+  type: trojan
+  server: 216.152.156.42
   port: 443
-  network: ws
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   skip-cert-verify: true
+  sni: blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  udp: true
+- name: 34|868ms|🇩🇪All² | @BigSmoke_Config
+  type: trojan
+  server: 193.108.119.134
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: api.iloverussia2026.com
+- name: 35|872ms|trojan-1935007698
+  type: trojan
+  server: 169.197.140.214
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  skip-cert-verify: true
+  sni: courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com
+  udp: true
+- name: 36|877ms|trojan-1939844058
+  type: trojan
+  server: 193.108.119.29
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  skip-cert-verify: false
+  sni: blog.iloverussia2026.com
+  udp: true
+- name: 37|901ms|trojan-1943021601
+  type: trojan
+  server: 193.108.119.96
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  skip-cert-verify: false
+  sni: learn.iloverussia2026.com
+  udp: true
+- name: 38|934ms|美国 200
+  type: trojan
+  server: 38.60.136.156
+  port: 443
+  network: tcp
+  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
+  skip-cert-verify: true
+  sni: 38.60.136.156
+  client-fingerprint: chrome
+- name: 39|1096ms|@prrofile_purple | 𝗙𝗮𝗦𝗧 💚
+  type: trojan
+  server: fi.zhabulik.ru
+  port: 443
+  password: WFer-5gN21nfHbVB2N8s71Z74EPUfzVj
+  udp: true
+  sni: fi.zhabulik.ru
+- name: 40|1185ms|v2ray_configs_pools | 7
+  type: trojan
+  server: 216.238.104.154
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: findtemporaryworkandfreelancerprojectsonlineplatform.com
+- name: 41|1282ms|🇳🇱NL_8|1.6MB/s
+  type: vless
+  server: 789156.xyz
+  port: 443
+  client-fingerprint: chrome
+  encryption: none
+  network: ws
+  servername: 789156.xyz
   tls: true
-  alterId: 0
-  cipher: auto
+  udp: true
+  uuid: 5f11c240-89df-494c-9c81-8b619023bb58
   ws-opts:
     headers:
-      Host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
-- name: 32|801ms|0.1M|@DeltaKroneckerGithub_3021_IPV4
-  type: vmess
-  server: 172.64.145.93
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: 33|684ms|🇩🇪 09
-  type: trojan
-  server: 146.103.42.112
-  port: 443
-  password: 807248b3ad214e8ce1ace68cb2080851
-  sni: cdn-edge-eu-Germany-probe02.cdn-status.info
-  skip-cert-verify: true
-  udp: true
-- name: 34|2555ms|🇩🇪 10
-  type: trojan
-  server: 202.61.195.167
-  port: 443
-  password: '1234567890'
-  sni: kfm-bn0.pages.dev
-  skip-cert-verify: true
-  udp: true
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /
+  xudp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -367,40 +464,47 @@ proxy-groups:
   - ♻️ 自动选择
   - 🔯 故障转移
   - DIRECT
-  - 01|g0.8s|0.8M|★🇹🇼 🇨🇳 台湾 | TWN 2
-  - 02|g0.9s|0.9M|★🇹🇼_TW_台湾_IPV4
-  - '03|g0.9s|0.8M|★🇮🇹 意大利 | ITA #7'
-  - 04|g0.9s|0.3M|★🇮🇹IT_9|2.7MB/s
-  - '05|g0.9s|0.3M|★🇮🇹 意大利 | ITA #2'
-  - '06|g0.9s|0.3M|★🇮🇹 意大利 | ITA #3'
-  - '07|g1.0s|0.3M|★🇮🇹 意大利 | ITA #5'
-  - '08|g1.0s|1.4M|★🇮🇹 意大利 | ITA #4'
-  - 09|g1.2s|0.7M|★🇬🇧 英国 | GBR 7
-  - 10|g1.3s|0.9M|★🇮🇹IT_10|3.4MB/s
-  - '11|g1.7s|0.5M|★🇮🇹 意大利 | ITA #1'
-  - '12|g1.9s|0.6M|★🇮🇹 意大利 | ITA #8'
-  - '13|g2.1s|0.5M|★🇮🇹 意大利 | ITA #6'
-  - 14|g2.4s|0.9M|★🇹🇼TW_3|1.6MB/s
-  - 15|g2.8s|0.3M|★🇭🇰HK_2|1.2MB/s
-  - 16|g2.9s|★U⚪🇳🇱ukn[🤖💬📺🎵]_dokng.com_ad12022f
-  - '17|g3.2s|0.5M|★🇩🇪 德国 | DEU #2'
-  - 18|g3.6s|0.1M|★🇳🇱 荷兰 | NLD
-  - 19|g4.9s|0.2M|★🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4
-  - '20|g5.3s|0.6M|★🇩🇪 德国 | DEU #6'
-  - 21|g5.9s|0.1M|★C🟠🇺🇸hos[🤖💬🔮🧩]_dokng.com_379449c0
-  - 22|g7.6s|0.1M|★C🟠🇺🇸hos[🤖💬🔮📺]_dokng.com_e49a43e6
-  - 23|g1.5s|0.4M|🇬🇧 英国 | GBR 5
-  - '24|g2.6s|0.1M|🇬🇧 英国 | GBR #1'
-  - 25|g2.7s|0.3M|🇷🇺_RU_俄罗斯_IPV4
-  - 26|g2.7s|0.7M|🇬🇧 英国 | GBR
-  - 27|322ms|1.0M|D🔴🇺🇸hos[🤖🔮🧩✈️]_dokng.com_4cec6c79
-  - 28|501ms|0.5M|🇺🇸 机场推荐:dafei.de 美国 15_IPV4
-  - 29|335ms|🇩🇪 293
-  - 30|348ms|0.0M|🇩🇪_DE_德国_IPV4
-  - 31|817ms|0.2M|美国 750
-  - 32|801ms|0.1M|@DeltaKroneckerGithub_3021_IPV4
-  - 33|684ms|🇩🇪 09
-  - 34|2555ms|🇩🇪 10
+  - 01|g0.5s|0.6M|★🇭🇰[www.v2nodes.com] ss-HK-1624...
+  - 02|g0.6s|7.4M|★🇹🇼_TW_台湾_IPV4
+  - 03|g0.9s|3.1M|★🇮🇹IT_4|2.1MB/s
+  - 04|g0.9s|3.8M|★🇮🇹IT_7|3.5MB/s
+  - 05|g0.9s|2.7M|★🇮🇹_IT_意大利_IPV4 (3)
+  - '06|g0.9s|2.1M|★🇮🇹[www.v2nodes.com] ss-IT-1619... #4'
+  - 07|g0.9s|2.6M|★🇮🇹IT_3|2.2MB/s
+  - 08|g0.9s|2.0M|★🇮🇹IT_6|2.7MB/s
+  - 09|g1.0s|1.5M|★🇭🇰_HK_香港_IPV4
+  - 10|g1.3s|0.2M|★🇳🇱_荷兰 (24)
+  - 11|g1.6s|0.7M|★🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4
+  - 12|g1.8s|0.0M|★伊朗 001
+  - 13|g1.9s|1.1M|★ProxyPool | 🇭🇰 香港 | HKG
+  - '14|g2.0s|1.3M|★EPODONIOS #2381'
+  - 15|g2.5s|1.3M|★🆔ar14n24b 🔒 VL-GRPC- ❔ XX 400ms
+  - 16|g3.2s|0.5M|★🇸🇨_塞舌尔 (7)
+  - 17|g4.5s|0.1M|★爱沙尼亚 V2CROSS.COM
+  - 18|g5.9s|0.5M|★C🟠🇺🇸hos[🤖💬🎮✈️]_dokng.com_c8aee3e4
+  - 19|g2.0s|0.8M|🇹🇼_台湾
+  - 20|g2.2s|0.5M|英国 003
+  - 21|g4.8s|0.1M|🇬🇧 英国 | GBR 2
+  - 22|256ms|6.1M|CN 🇨🇳 | @Raydikalx | 0BE39C
+  - 23|297ms|3.0M|@DeltaKroneckerGithub_3021_IPV4
+  - 24|351ms|4.6M|CN 🇨🇳 | @Raydikalx | E7ABC3
+  - 25|306ms|2.6M|CN 🇨🇳 | @Raydikalx | 10C07D
+  - 26|401ms|2.8M|🇺🇸_US_美国_IPV4 (8)
+  - 27|471ms|3.5M|🇺🇸 机场推荐:dafei.de 美国 15_IPV4
+  - 28|371ms|1.8M|🇪🇸 西班牙 | ESP 2
+  - 29|244ms|🇺🇸_美国 (3)
+  - 30|342ms|0.1M|🇩🇪 DE德国(mibei77.com 米贝节点分享) (3)(v2clash.blog 2026-11.23更新)
+  - 31|745ms|🇺🇸US_13|2.7MB/s
+  - 32|804ms|trojan-1929965354
+  - 33|861ms|trojan-1935805071
+  - 34|868ms|🇩🇪All² | @BigSmoke_Config
+  - 35|872ms|trojan-1935007698
+  - 36|877ms|trojan-1939844058
+  - 37|901ms|trojan-1943021601
+  - 38|934ms|美国 200
+  - 39|1096ms|@prrofile_purple | 𝗙𝗮𝗦𝗧 💚
+  - 40|1185ms|v2ray_configs_pools | 7
+  - 41|1282ms|🇳🇱NL_8|1.6MB/s
 - name: ♻️ 自动选择
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -408,40 +512,47 @@ proxy-groups:
   tolerance: 50
   lazy: true
   proxies: &id001
-  - 01|g0.8s|0.8M|★🇹🇼 🇨🇳 台湾 | TWN 2
-  - 02|g0.9s|0.9M|★🇹🇼_TW_台湾_IPV4
-  - '03|g0.9s|0.8M|★🇮🇹 意大利 | ITA #7'
-  - 04|g0.9s|0.3M|★🇮🇹IT_9|2.7MB/s
-  - '05|g0.9s|0.3M|★🇮🇹 意大利 | ITA #2'
-  - '06|g0.9s|0.3M|★🇮🇹 意大利 | ITA #3'
-  - '07|g1.0s|0.3M|★🇮🇹 意大利 | ITA #5'
-  - '08|g1.0s|1.4M|★🇮🇹 意大利 | ITA #4'
-  - 09|g1.2s|0.7M|★🇬🇧 英国 | GBR 7
-  - 10|g1.3s|0.9M|★🇮🇹IT_10|3.4MB/s
-  - '11|g1.7s|0.5M|★🇮🇹 意大利 | ITA #1'
-  - '12|g1.9s|0.6M|★🇮🇹 意大利 | ITA #8'
-  - '13|g2.1s|0.5M|★🇮🇹 意大利 | ITA #6'
-  - 14|g2.4s|0.9M|★🇹🇼TW_3|1.6MB/s
-  - 15|g2.8s|0.3M|★🇭🇰HK_2|1.2MB/s
-  - 16|g2.9s|★U⚪🇳🇱ukn[🤖💬📺🎵]_dokng.com_ad12022f
-  - '17|g3.2s|0.5M|★🇩🇪 德国 | DEU #2'
-  - 18|g3.6s|0.1M|★🇳🇱 荷兰 | NLD
-  - 19|g4.9s|0.2M|★🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4
-  - '20|g5.3s|0.6M|★🇩🇪 德国 | DEU #6'
-  - 21|g5.9s|0.1M|★C🟠🇺🇸hos[🤖💬🔮🧩]_dokng.com_379449c0
-  - 22|g7.6s|0.1M|★C🟠🇺🇸hos[🤖💬🔮📺]_dokng.com_e49a43e6
-  - 23|g1.5s|0.4M|🇬🇧 英国 | GBR 5
-  - '24|g2.6s|0.1M|🇬🇧 英国 | GBR #1'
-  - 25|g2.7s|0.3M|🇷🇺_RU_俄罗斯_IPV4
-  - 26|g2.7s|0.7M|🇬🇧 英国 | GBR
-  - 27|322ms|1.0M|D🔴🇺🇸hos[🤖🔮🧩✈️]_dokng.com_4cec6c79
-  - 28|501ms|0.5M|🇺🇸 机场推荐:dafei.de 美国 15_IPV4
-  - 29|335ms|🇩🇪 293
-  - 30|348ms|0.0M|🇩🇪_DE_德国_IPV4
-  - 31|817ms|0.2M|美国 750
-  - 32|801ms|0.1M|@DeltaKroneckerGithub_3021_IPV4
-  - 33|684ms|🇩🇪 09
-  - 34|2555ms|🇩🇪 10
+  - 01|g0.5s|0.6M|★🇭🇰[www.v2nodes.com] ss-HK-1624...
+  - 02|g0.6s|7.4M|★🇹🇼_TW_台湾_IPV4
+  - 03|g0.9s|3.1M|★🇮🇹IT_4|2.1MB/s
+  - 04|g0.9s|3.8M|★🇮🇹IT_7|3.5MB/s
+  - 05|g0.9s|2.7M|★🇮🇹_IT_意大利_IPV4 (3)
+  - '06|g0.9s|2.1M|★🇮🇹[www.v2nodes.com] ss-IT-1619... #4'
+  - 07|g0.9s|2.6M|★🇮🇹IT_3|2.2MB/s
+  - 08|g0.9s|2.0M|★🇮🇹IT_6|2.7MB/s
+  - 09|g1.0s|1.5M|★🇭🇰_HK_香港_IPV4
+  - 10|g1.3s|0.2M|★🇳🇱_荷兰 (24)
+  - 11|g1.6s|0.7M|★🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4
+  - 12|g1.8s|0.0M|★伊朗 001
+  - 13|g1.9s|1.1M|★ProxyPool | 🇭🇰 香港 | HKG
+  - '14|g2.0s|1.3M|★EPODONIOS #2381'
+  - 15|g2.5s|1.3M|★🆔ar14n24b 🔒 VL-GRPC- ❔ XX 400ms
+  - 16|g3.2s|0.5M|★🇸🇨_塞舌尔 (7)
+  - 17|g4.5s|0.1M|★爱沙尼亚 V2CROSS.COM
+  - 18|g5.9s|0.5M|★C🟠🇺🇸hos[🤖💬🎮✈️]_dokng.com_c8aee3e4
+  - 19|g2.0s|0.8M|🇹🇼_台湾
+  - 20|g2.2s|0.5M|英国 003
+  - 21|g4.8s|0.1M|🇬🇧 英国 | GBR 2
+  - 22|256ms|6.1M|CN 🇨🇳 | @Raydikalx | 0BE39C
+  - 23|297ms|3.0M|@DeltaKroneckerGithub_3021_IPV4
+  - 24|351ms|4.6M|CN 🇨🇳 | @Raydikalx | E7ABC3
+  - 25|306ms|2.6M|CN 🇨🇳 | @Raydikalx | 10C07D
+  - 26|401ms|2.8M|🇺🇸_US_美国_IPV4 (8)
+  - 27|471ms|3.5M|🇺🇸 机场推荐:dafei.de 美国 15_IPV4
+  - 28|371ms|1.8M|🇪🇸 西班牙 | ESP 2
+  - 29|244ms|🇺🇸_美国 (3)
+  - 30|342ms|0.1M|🇩🇪 DE德国(mibei77.com 米贝节点分享) (3)(v2clash.blog 2026-11.23更新)
+  - 31|745ms|🇺🇸US_13|2.7MB/s
+  - 32|804ms|trojan-1929965354
+  - 33|861ms|trojan-1935805071
+  - 34|868ms|🇩🇪All² | @BigSmoke_Config
+  - 35|872ms|trojan-1935007698
+  - 36|877ms|trojan-1939844058
+  - 37|901ms|trojan-1943021601
+  - 38|934ms|美国 200
+  - 39|1096ms|@prrofile_purple | 𝗙𝗮𝗦𝗧 💚
+  - 40|1185ms|v2ray_configs_pools | 7
+  - 41|1282ms|🇳🇱NL_8|1.6MB/s
 - name: 🔯 故障转移
   type: fallback
   url: https://www.gstatic.com/generate_204
@@ -454,11 +565,12 @@ proxy-groups:
   tolerance: 100
   lazy: true
   proxies:
-  - 01|g0.8s|0.8M|★🇹🇼 🇨🇳 台湾 | TWN 2
-  - 02|g0.9s|0.9M|★🇹🇼_TW_台湾_IPV4
-  - 14|g2.4s|0.9M|★🇹🇼TW_3|1.6MB/s
-  - 15|g2.8s|0.3M|★🇭🇰HK_2|1.2MB/s
-  - 19|g4.9s|0.2M|★🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4
+  - 01|g0.5s|0.6M|★🇭🇰[www.v2nodes.com] ss-HK-1624...
+  - 02|g0.6s|7.4M|★🇹🇼_TW_台湾_IPV4
+  - 09|g1.0s|1.5M|★🇭🇰_HK_香港_IPV4
+  - 11|g1.6s|0.7M|★🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4
+  - 13|g1.9s|1.1M|★ProxyPool | 🇭🇰 香港 | HKG
+  - 19|g2.0s|0.8M|🇹🇼_台湾
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -472,28 +584,24 @@ proxy-groups:
   tolerance: 100
   lazy: true
   proxies:
-  - 01|g0.8s|0.8M|★🇹🇼 🇨🇳 台湾 | TWN 2
-  - 02|g0.9s|0.9M|★🇹🇼_TW_台湾_IPV4
-  - '03|g0.9s|0.8M|★🇮🇹 意大利 | ITA #7'
-  - 04|g0.9s|0.3M|★🇮🇹IT_9|2.7MB/s
-  - '05|g0.9s|0.3M|★🇮🇹 意大利 | ITA #2'
-  - '06|g0.9s|0.3M|★🇮🇹 意大利 | ITA #3'
-  - '07|g1.0s|0.3M|★🇮🇹 意大利 | ITA #5'
-  - '08|g1.0s|1.4M|★🇮🇹 意大利 | ITA #4'
-  - 09|g1.2s|0.7M|★🇬🇧 英国 | GBR 7
-  - 10|g1.3s|0.9M|★🇮🇹IT_10|3.4MB/s
-  - '11|g1.7s|0.5M|★🇮🇹 意大利 | ITA #1'
-  - '12|g1.9s|0.6M|★🇮🇹 意大利 | ITA #8'
-  - '13|g2.1s|0.5M|★🇮🇹 意大利 | ITA #6'
-  - 14|g2.4s|0.9M|★🇹🇼TW_3|1.6MB/s
-  - 15|g2.8s|0.3M|★🇭🇰HK_2|1.2MB/s
-  - 16|g2.9s|★U⚪🇳🇱ukn[🤖💬📺🎵]_dokng.com_ad12022f
-  - '17|g3.2s|0.5M|★🇩🇪 德国 | DEU #2'
-  - 18|g3.6s|0.1M|★🇳🇱 荷兰 | NLD
-  - 19|g4.9s|0.2M|★🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4
-  - '20|g5.3s|0.6M|★🇩🇪 德国 | DEU #6'
-  - 21|g5.9s|0.1M|★C🟠🇺🇸hos[🤖💬🔮🧩]_dokng.com_379449c0
-  - 22|g7.6s|0.1M|★C🟠🇺🇸hos[🤖💬🔮📺]_dokng.com_e49a43e6
+  - 01|g0.5s|0.6M|★🇭🇰[www.v2nodes.com] ss-HK-1624...
+  - 02|g0.6s|7.4M|★🇹🇼_TW_台湾_IPV4
+  - 03|g0.9s|3.1M|★🇮🇹IT_4|2.1MB/s
+  - 04|g0.9s|3.8M|★🇮🇹IT_7|3.5MB/s
+  - 05|g0.9s|2.7M|★🇮🇹_IT_意大利_IPV4 (3)
+  - '06|g0.9s|2.1M|★🇮🇹[www.v2nodes.com] ss-IT-1619... #4'
+  - 07|g0.9s|2.6M|★🇮🇹IT_3|2.2MB/s
+  - 08|g0.9s|2.0M|★🇮🇹IT_6|2.7MB/s
+  - 09|g1.0s|1.5M|★🇭🇰_HK_香港_IPV4
+  - 10|g1.3s|0.2M|★🇳🇱_荷兰 (24)
+  - 11|g1.6s|0.7M|★🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4
+  - 12|g1.8s|0.0M|★伊朗 001
+  - 13|g1.9s|1.1M|★ProxyPool | 🇭🇰 香港 | HKG
+  - '14|g2.0s|1.3M|★EPODONIOS #2381'
+  - 15|g2.5s|1.3M|★🆔ar14n24b 🔒 VL-GRPC- ❔ XX 400ms
+  - 16|g3.2s|0.5M|★🇸🇨_塞舌尔 (7)
+  - 17|g4.5s|0.1M|★爱沙尼亚 V2CROSS.COM
+  - 18|g5.9s|0.5M|★C🟠🇺🇸hos[🤖💬🎮✈️]_dokng.com_c8aee3e4
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
